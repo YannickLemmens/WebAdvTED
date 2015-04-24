@@ -6,6 +6,8 @@
 <img src="http://www.tedxuhasselt.eu/themes/tedx/logo.png"/>
 </head>
 <body>
+<h1>test</h1>
+
 
 </body>
 </html>
