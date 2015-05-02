@@ -5,7 +5,7 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<img src="http://www.tedxuhasselt.eu/themes/tedx/logo.png" hspace="20" vspace="100"/>
+<img src="http://www.tedxuhasselt.eu/themes/tedx/logo.png" vspace="100"/>
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -26,6 +26,14 @@
 			<li><a href="#Events">Events</a></li>
 			<li><a href="#About">About</a></li>
 			<li><a href="#Contact">Contact</a></li>
+			<li>
+			<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<!--<button type="submit" class="btn btn-default">Submit</button>-->
+			</form>
+			</li
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -33,15 +41,15 @@
 
 </head>
 <body>
-<img src="http://www.tedxuhasselt.eu/sites/default/files/styles/call_to_action/public/TEDx2016%20homepage%20banner.jpg?itok=OD3iDE2B" width="100%"/>
+<img src="http://www.tedxuhasselt.eu/sites/default/files/styles/call_to_action/public/TEDx2016%20homepage%20banner.jpg?itok=OD3iDE2B" width="75%" />
 <blockquote>TEDxUHasselt is an independently organized TED event. A place where you learn about cutting-edge ideas and connect with interesting people.</blockquote>
 
 </body>
-<footer style="background:grey">
-<div class="row">
+<footer style="background:#4D4D4D">
+<div class="row" style="padding-left:20px">
         <div class="col-md-3">
-		<h2>ABOUT TEDX</h2>
-			<p>
+		<h2 style="color:white">ABOUT TEDX</h2>
+			<p style="color:#EDEDED">
 			In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group.</br>
 			</br>
 			These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.
@@ -49,12 +57,13 @@
 		</div>
         
         <div class="col-md-3">
-			<h2>Our Newsletter</h2>
-			<form>
+			<h2 style="color:white">Our Newsletter</h2>
+			<form >
 			<input type="text" name="emailadres" value="Emailadres">
 			<input type="submit">
 			</form>
 		</div>
-      </div>
+</div>
+	  <p style="color:white">Copyright Groep 5</p>
 </footer>
 </html>
