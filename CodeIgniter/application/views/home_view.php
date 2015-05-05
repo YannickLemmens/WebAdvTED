@@ -5,7 +5,7 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<img src="http://www.tedxuhasselt.eu/themes/tedx/logo.png" vspace="100"/>
+<img src="http://www.tedxuhasselt.eu/themes/tedx/logo.png" style="margin:100px 0px 0px 25px"/>
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -20,28 +20,28 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#News">News</a></li>
+			<li><a href="#Leden">Lid worden</a></li>
+            <!--<li><a href="#News">News</a></li>
             <li><a href="#TEDxPXL">TEDxPXL</a></li>
 			<li><a href="#Partners">Partners</a></li>
-			<li><a href="#Events">Events</a></li>
+			<li><a href="#Events">Events</a></li>-->
 			<li><a href="#About">About</a></li>
-			<li><a href="#Contact">Contact</a></li>
-			<li>
-			<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<!--<button type="submit" class="btn btn-default">Submit</button>-->
-			</form>
-			</li
+			<!--<li><a href="#Contact">Contact</a></li>-->
+
           </ul>
+		  <form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Zoeken">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</div>
+			</form>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
 </head>
 <body>
-<img src="http://www.tedxuhasselt.eu/sites/default/files/styles/call_to_action/public/TEDx2016%20homepage%20banner.jpg?itok=OD3iDE2B" width="75%" />
+<img src="http://www.tedxuhasselt.eu/sites/default/files/styles/call_to_action/public/TEDx2016%20homepage%20banner.jpg?itok=OD3iDE2B" width="95%" style="margin:50px"/>
 <blockquote>TEDxUHasselt is an independently organized TED event. A place where you learn about cutting-edge ideas and connect with interesting people.</blockquote>
 
 </body>
