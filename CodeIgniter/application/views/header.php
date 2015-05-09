@@ -24,7 +24,8 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-			<li><a href="#Leden">Lid worden</a></li>
+			<li><a href="/register">Lid worden</a></li>
+      <a href="<?php echo site_url('register') ?>">Lid worden</a>
             <!--<li><a href="#News">News</a></li>
             <li><a href="#TEDxPXL">TEDxPXL</a></li>
 			<li><a href="#Partners">Partners</a></li>
