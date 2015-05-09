@@ -1,3 +1,15 @@
+
+<head>
+<title>TEDxPXL</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
+<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
+
+<img src="http://www.tedxuhasselt.eu/themes/tedx/logo.png" style="margin:100px 0px 0px 25px"/>
+
+</head>
+
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
