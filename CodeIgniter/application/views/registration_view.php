@@ -1,6 +1,6 @@
 <div id="content">
 <div class="signup_wrap">
-<div class="signin_form">
+<div class="form-group">
  <?php echo form_open("user/login"); ?>
   <label for="email">Email:</label>
   <input type="text" id="email" name="email" value="" />
@@ -10,11 +10,13 @@
  <?php echo form_close(); ?>
 </div><!--<div class="signin_form">-->
 </div><!--<div class="signup_wrap">-->
+
+
 <div class="reg_form">
 <div class="form_title">Sign Up</div>
 <div class="form_sub_title">It's free and anyone can join</div>
  <?php echo validation_errors('<p class="error">'); ?>
- <?php echo form_open("user/registration"); ?>
+ <?php echo form_open("index.php/user/registration"); ?>
   <p>
   <label for="user_name">User Name:</label>
   <input type="text" id="user_name" name="user_name" value="<?php echo set_value('user_name'); ?>" />
