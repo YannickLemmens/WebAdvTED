@@ -1,6 +1,6 @@
 <body>
- <?php echo form_open("index.php/user/login"); ?>
- <div class="container">
+ <?php echo form_open("index.php/login"); ?>
+	<div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
             <h1 class="text-center login-title">Sign in to continue</h1>
@@ -13,7 +13,7 @@
 	
                 </form>
             </div>
-            <a href="#" class="text-center new-account">Create an account </a>
+            <a href="<?php echo site_url('index.php/register')?>" class="text-center new-account">Create an account </a>
         </div>
     </div>
 </div>
