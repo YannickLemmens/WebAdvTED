@@ -1,7 +1,7 @@
 <html>
 
 <body>
-<div class="container">
+<div class="container" style="margin-top:30px; margin-bottom:20px">
     <div class="row">
         <form role="form">
             <div class="col-lg-6">

@@ -23,14 +23,13 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-			<li><a href="/register">Lid worden</a></li>
-      <a href="<?php echo site_url('register') ?>">Lid worden</a>
+            <li><a href="<?php echo site_url('index.php/home')?>">Home</a></li>
+			<li><a href="<?php echo site_url('index.php/register') ?>">Lid worden</a></li>
             <!--<li><a href="#News">News</a></li>
             <li><a href="#TEDxPXL">TEDxPXL</a></li>
 			<li><a href="#Partners">Partners</a></li>
 			<li><a href="#Events">Events</a></li>-->
-			<li><a href="#About">About</a></li>
+			<li><a href="<?php echo site_url('index.php/about')?>">About</a></li>
 			<!--<li><a href="#Contact">Contact</a></li>-->
 
           </ul>
