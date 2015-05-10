@@ -31,6 +31,7 @@
 			<li><a href="#Events">Events</a></li>-->
 			<li><a href="<?php echo site_url('index.php/about')?>">About</a></li>
 			<!--<li><a href="#Contact">Contact</a></li>-->
+			<li><a href="<?php echo site_url('index.php/login')?>">Login</a></li>
 
           </ul>
 		  <form class="navbar-form navbar-right" role="search">
