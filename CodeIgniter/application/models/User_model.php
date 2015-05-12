@@ -23,9 +23,11 @@ class User_model extends CI_Model {
     );
    }
    $this->session->set_userdata($newdata);
-   return true;
+   //
+   $this->load->view('home',$newdata);
   }
-  return false;
+  //return false;
+  $this->load->view('login');
  }
  public function add_user()
  {
