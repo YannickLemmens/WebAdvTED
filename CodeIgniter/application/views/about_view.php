@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-
+<header>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/mainstyle.css'); ?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
+</header>
 
 <body>
-<div style="margin:0 auto;width:60%; margin-top:100px">
+<div id="about">
 	<h2>About TEDxPXL</h2>
 	<p>TEDxUHasselt is an independently organized TED conference where speakers from around the world share cutting-edge ideas. During the breaks, attendees connect with each other through various interactive activities.
 

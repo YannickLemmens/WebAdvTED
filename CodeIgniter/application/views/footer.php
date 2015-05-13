@@ -1,6 +1,6 @@
 <footer style="background:#4D4D4D">
 <div class="row" style="padding-left:20px">
-        <div class="col-md-3">
+        <div class="col-md-3" id="about">
 		<h2 style="color:white">ABOUT TEDX</h2>
 			<p style="color:#EDEDED">
 			In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group.</br>
@@ -9,7 +9,7 @@
 			</p>
 		</div>
         
-        <div class="col-md-3">
+        <div class="col-md-3" id="newsletter">
 			<h2 style="color:white">Our Newsletter</h2>
 			<form >
 			<input type="text" name="emailadres" value="Emailadres">
