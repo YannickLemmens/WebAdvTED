@@ -29,23 +29,41 @@
 			<li><a href="<?php echo site_url('index.php/about')?>">About</a></li>
 
 			
-      <?php if ($this->session->userdata('logged_in') == TRUE)
+
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+     
+ 
+     
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="40" height="40" 
+        class="img-circle"> <?php echo "<p>". $this->session->userdata('user_email'). "</p>";?></img> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+        </div><!--/.nav-collapse -->
+       
+            <?php if ($this->session->userdata('logged_in') == TRUE)
       {
         echo '<li><a href="'.site_url('index.php/user/logout').'">logout</a></li>';
-        echo'<p>logged in as '. $this->session->userdata("user_email") .'</p>';
+     
       }
       else 
         echo '<li><a href="'. site_url('index.php/login') .'">Login</a></li>';
       ?>
 
-          </ul>
-		  <form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Zoeken">
-					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-				</div>
-			</form>
-        </div><!--/.nav-collapse -->
+
       </div>
 
     </nav>

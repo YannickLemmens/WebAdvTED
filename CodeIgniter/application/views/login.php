@@ -1,3 +1,11 @@
+<?php if (isset($login_fail)) : ?>
+
+    <div class="alert alert-danger" role="alert">
+  <p class="alert-link">Username or password is incorrect. Please try again.</p>
+</div>
+    
+<?php endif; ?>
+
 <body>
  <?php echo form_open("index.php/login/login"); ?>
 	<div class="container">

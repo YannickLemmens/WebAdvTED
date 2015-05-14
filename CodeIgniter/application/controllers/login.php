@@ -16,24 +16,27 @@ class Login extends CI_Controller {
 
 	public function login(){
   
-  $email=$this->input->post('email');
-  $password=md5($this->input->post('pass'));
+
   if ($this->session->userdata('logged_in') == TRUE) 
             redirect('index.php/home');
 
-  $query = $this->user_exist($email);
 
+  
+  $email=$this->input->post('email');
+  $password=md5($this->input->post('pass'));
+  $query = $this->user_exist($email);
+  
   if ($query->num_rows() == 1) {
   foreach ($query->result() as $row) {
-  $this->load->library('encrypt');
-  #Hash van het wachtwoord genereren
-  if (md5($password) == $row->password){
+
+  if ($password != $row->password){
   	$data ['login_fail'] = true;
  		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('login',$data);
 		$this->load->view('footer');
     } else {
+    $data ['login_succes'] = true;
     $data = array(
     'user_id' => $row->id,
      'user_email' => $row->email,
