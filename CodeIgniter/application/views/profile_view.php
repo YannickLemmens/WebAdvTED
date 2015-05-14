@@ -30,10 +30,17 @@
 <th><label id="hide">Id </label></th>
 <th><label>Name </label></th>
 <th><label>Email </label></th>
+<th><label>Role</label></th>
 <tr>
 <td><input type="text" name="did" value="<?php echo $user->id; ?>"></span>	</td>
 <td><input type="text" name="dname" value="<?php echo $user->username; ?>"></td>
 <td><input type="text" name="demail" value="<?php echo $user->email; ?>"></td>
+<td>
+<select name="drole">
+	<option value="<?php echo $user->role;?>">Select role</option>
+	<option value="Member">Member</option>
+	<option value="Admin" >Admin</option>
+</select></td>
 <td><input type="submit" id="submit" name="dsubmit" value="Update"></td>	
 </tr>
 

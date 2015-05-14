@@ -7,7 +7,7 @@ class admin extends CI_Controller {
  }
 	
 	function index() {
-		if($this->session->userdata('role') == 1){
+		if($this->session->userdata('role') == "Admin"){
 		$this->load->view('admin_header');
 		$this->load->view('Admin_view');
 		} else {

@@ -34,6 +34,7 @@ $(document).ready(function()
 		<th>ID</th>
 		<th>Naam</th>
 		<th>Emailadres</th>
+		<th>Role</th>
 		<th>Bewerken</th>
 	</tr>
 	<?php 
@@ -44,6 +45,7 @@ $(document).ready(function()
 			<td><?php echo $row->id?></td>
 			<td><?php echo $row ->username?></td>
 			<td><?php echo $row->email?></td>
+			<td><?php echo $row->role?></td>
 			<td><a href="<?php echo site_url("index.php/profile/show_user_id/".$row->id); ?>"><button>Edit</button><a href="<?php echo site_url("index.php/profile/delete_user_id/".$row->id);?>" onclick="<?php echo site_url("index.php/leden");?>"><button>Delete</button></a>
 		</tr>
 		<?php

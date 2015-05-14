@@ -35,10 +35,11 @@ class Profile extends CI_Controller {
 		$id= $this->input->post('did');
 		$data = array(
 		'username' => $this->input->post('dname'),
-		'email' => $this->input->post('demail')
+		'email' => $this->input->post('demail'),
+		'role' =>$this->input->post('drole')
 		);
 		$this->Members_model->update_user_id($id,$data);
-		redirect("index.php/leden");
+		redirect("index.php/admin/getAllUsers");
 	}
 
 

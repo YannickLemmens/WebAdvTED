@@ -63,7 +63,8 @@ class Login extends CI_Controller {
   $data=array(
     'username'=>$this->input->post('user_name'),
     'email'=>$this->input->post('email_address'),
-    'password'=>md5($this->input->post('password'))
+    'password'=>md5($this->input->post('password')),
+	'role'=> 0
   );
   $this->db->insert('user',$data);
  }     
