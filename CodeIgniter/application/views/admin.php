@@ -27,7 +27,7 @@ button {
 			<td><?php echo $row->id?></td>
 			<td><?php echo $row ->username?></td>
 			<td><?php echo $row->email?></td>
-			<td><button>Edit</button><button>Delete</button>
+			<td><button>Edit</button><a href="<?php echo site_url("index.php/profile/delete_user_id/".$row->id);?>" onclick="<?php echo site_url("index.php/leden");?>"><button>Delete</button></a>
 		</tr>
 		<?php
 	}

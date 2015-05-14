@@ -16,7 +16,7 @@ class Members_model extends CI_Model {
 	
 	public function get_user_info($id){
         $this->db->where('id' , $id);
-        $q = $this->db->get('users');
+        $q = $this->db->get('user');
         if ($q->num_rows > 0) {
             return $q->result();
         } else {
@@ -24,4 +24,11 @@ class Members_model extends CI_Model {
 
         }
     }
+	
+	public function delete_user($id) 
+	{
+		$this->db->where('id',$id);
+		$this->db->delete('user');
+		redirect("index.php/leden");
+	}
 }

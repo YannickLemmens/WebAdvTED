@@ -6,8 +6,16 @@ class Profile extends CI_Controller {
 		$this->load->model('Members_model');
 		$this->load->view('header');
 		$this->load->view('footer');
-		$data['result'] = $this->Members_model->get_user_info($id);
-		$this->load->view('profile_view',$data);
+		$this->load->view('profile_view');
 		
     }
+	
+	function delete_user_id() {
+		$this->load->model('Members_model');
+		$id = $this->uri->segment(3);
+		$this->Members_model->delete_user($id);
+		
+}
+
+
 }
