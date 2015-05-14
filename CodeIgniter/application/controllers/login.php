@@ -1,7 +1,11 @@
 <?php
 class Login extends CI_Controller {
 	
+	    public function __construct() {
+        parent::__construct();
+    }
 	public function index () {
+		$this->load->helper(array('form'));
 		$this->load->helper('url');
 		$this->load->view('header');
 		$this->load->view('login');
@@ -9,20 +13,53 @@ class Login extends CI_Controller {
 		
 	}
 	
-	public function process(){
-        // Load the model
-        $this->load->model('login_model');
-        // Validate the user can login
-        $result = $this->login_model->validate();
-        // Now we verify the result
-        if(! $result){
-            // If user did not validate, then show them login page again
-            $msg = '<font color=red>Invalid username and/or password.</font><br />';
-            $this->index($msg);
-        }else{
-            // If user did validate, 
-            // Send them to members area
-            redirect('home');
-        }        
+	public function login(){
+  
+  $email=$this->input->post('email');
+  $password=md5($this->input->post('pass'));
+  if ($this->session->userdata('logged_in') == TRUE) 
+            redirect('index.php/home');
+
+  $query = $this->user_exist($email);
+
+  if ($query->num_rows() == 1) {
+  foreach ($query->result() as $row) {
+  $this->load->library('encrypt');
+  #Hash van het wachtwoord genereren
+  if (md5($password) == $row->password){
+  	$data ['login_fail'] = true;
+ 		$this->load->helper('url');
+		$this->load->view('header');
+		$this->load->view('login',$data);
+		$this->load->view('footer');
+    } else {
+    $data = array(
+    'user_id' => $row->id,
+     'user_email' => $row->email,
+     'user_name' => $row->username,
+     'logged_in' => TRUE
+     );
+                         
+     $this->session->set_userdata($data);
+     redirect('index.php/home');
+    	}
     }
-}
+                    }
+                
+ }
+    public function user_exist($email) {
+        $this->db->where('email', $email);
+        $query = $this->db->get('user');
+        return $query;
+    }
+
+ public function add_user()
+ {
+  $data=array(
+    'username'=>$this->input->post('user_name'),
+    'email'=>$this->input->post('email_address'),
+    'password'=>md5($this->input->post('password'))
+  );
+  $this->db->insert('user',$data);
+ }     
+    }

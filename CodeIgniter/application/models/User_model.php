@@ -6,27 +6,29 @@ class User_model extends CI_Model {
  }
  function login($email,$password)
  {
+  #is gebruiker al ingelogd?
+  if ($this->session->userdata('logged_in') == TRUE) 
+            redirect('/home');
+
   $this->db->where("email",$email);
   $this->db->where("password",$password);
-
   $query=$this->db->get("user");
+  
   if($query->num_rows()>0)
   {
-   foreach($query->result() as $rows)
-   {
-    //add all data to session
-    $newdata = array(
-      'user_id'  => $rows->id,
-      'user_name'  => $rows->username,
-      'user_email'    => $rows->email,
-      'logged_in'  => TRUE,
-    );
-   }
-   $this->session->set_userdata($newdata);
-   //
-   $this->load->view('home',$newdata);
+    foreach($query->result() as $rows)
+    {
+      $newdata = array(
+        'user_id'  => $rows->id,
+        'user_name'  => $rows->username,
+        'user_email'    => $rows->email,
+        'logged_in'  => TRUE,
+      );
+    }
+    $this->session->set_userdata($newdata);
+    $this->load->view('home',$newdata);
   }
-  //return false;
+ 
   $this->load->view('login');
  }
  public function add_user()

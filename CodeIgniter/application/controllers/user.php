@@ -25,15 +25,6 @@ class User extends CI_Controller{
   $this->load->view('home', $data);
   $this->load->view('footer',$data);
  }
- public function login()
- {
-  $email=$this->input->post('email');
-  $password=md5($this->input->post('pass'));
-
-  $result=$this->User_model->login($email,$password);
-  if($result) $this->welcome();
-  else        $this->index();
- }
  public function thank()
  {
   $data['title']= 'Thank';
@@ -69,7 +60,7 @@ class User extends CI_Controller{
   );
   $this->session->unset_userdata($newdata );
   $this->session->sess_destroy();
-  $this->index();
+  redirect('index.php/home');
  }
 }
 ?>
