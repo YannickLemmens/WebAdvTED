@@ -13,6 +13,7 @@ class Login extends CI_Controller {
 		
 	}
 	
+
 	public function login(){
   
   $email=$this->input->post('email');
@@ -63,3 +64,7 @@ class Login extends CI_Controller {
   $this->db->insert('user',$data);
  }     
     }
+
+	
+}
+
