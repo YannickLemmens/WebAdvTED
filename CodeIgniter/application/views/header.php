@@ -35,33 +35,19 @@
           <ul class="nav navbar-nav navbar-right">
      
  
-     
-
-        <li class="dropdown">
+     <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
+  <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="40" height="40" 
-        class="img-circle"> <?php echo "<p>". $this->session->userdata('user_email'). "</p>";?></img> <span class="caret"></span></a>
+        class="img-circle">  <span class=""><?php echo $this->session->userdata('user_email');?></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="user/logout">Logout</a></li>
+          
           </ul>
         </li>
       </ul>
-
-
-
-        </div><!--/.nav-collapse -->
-       
-            <?php if ($this->session->userdata('logged_in') == TRUE)
-      {
-        echo '<li><a href="'.site_url('index.php/user/logout').'">logout</a></li>';
-     
-      }
-      else 
-        echo '<li><a href="'. site_url('index.php/login') .'">Login</a></li>';
-      ?>
+ <?php }else{ ?>
+<li><a href="<?php echo site_url('index.php/login')?>">login</a></li>
+<?php } ?>
 
 
       </div>
