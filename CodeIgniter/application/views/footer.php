@@ -11,11 +11,18 @@
         
         <div class="col-md-3" id="newsletter">
 			<h2 style="color:white">Our Newsletter</h2>
-			<form >
+			<?php echo form_open("index.php/home/addToNewsletter");?>
+			<form action="post" >
 			<input type="text" name="emailadres" value="Emailadres">
-			<input type="submit">
+			<input type="submit" onclick="showPopup()">
 			</form>
+			<?php echo form_close();?>
 		</div>
 </div>
 </footer>
+<script>
+	function showPopup() {
+		alert("Bedankt voor het inschrijven voor de nieuwsbrief.'");
+	}
+</script>
 </body>
