@@ -8,7 +8,9 @@ class admin extends CI_Controller {
 	
 	function index() {
 		if($this->session->userdata('role') == "Admin"){
-		$this->load->view('admin_header');
+		$data['dashboard'] = "active";
+		$data['userview'] = "";
+		$this->load->view('admin_header',$data);
 		$this->load->view('Admin_view');
 		} else {
 			redirect("index.php/login");
@@ -17,7 +19,9 @@ class admin extends CI_Controller {
 	
 	function getAllUsers() {
 		$data['user'] = $this->Members_model->get_users();
-		$this->load->view('admin_header');
+		$data['dashboard']="";
+		$data['userview'] = "active";
+		$this->load->view('admin_header',$data);
 		$this->load->view('editUsers', $data);
 	}
 }

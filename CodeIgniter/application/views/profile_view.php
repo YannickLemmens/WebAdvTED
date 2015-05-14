@@ -9,16 +9,18 @@
 	}
 	
 	#data input {
-		width : 100%
+		width : 100%;
 	}
 	
 	#submit {
-		margin-left : 1%
+		margin-left : 1%;
 	}
 	
 	table th {
 		background-color : #4D94FF;
 	}
+	
+	
 	
 
 </style>
@@ -32,16 +34,17 @@
 <th><label>Email </label></th>
 <th><label>Role</label></th>
 <tr>
-<td><input type="text" name="did" value="<?php echo $user->id; ?>"></span>	</td>
-<td><input type="text" name="dname" value="<?php echo $user->username; ?>"></td>
-<td><input type="text" name="demail" value="<?php echo $user->email; ?>"></td>
+<td><input type="text" name="did" class="form-control" value="<?php echo $user->id; ?>"></span>	</td>
+<td><input type="text" name="dname" class="form-control" value="<?php echo $user->username; ?>"></td>
+<td><input type="text" name="demail" class="form-control" value="<?php echo $user->email; ?>"></td>
 <td>
-<select name="drole">
+<select name="drole" class="form-control">
 	<option value="<?php echo $user->role;?>">Select role</option>
 	<option value="Member">Member</option>
 	<option value="Admin" >Admin</option>
-</select></td>
-<td><input type="submit" id="submit" name="dsubmit" value="Update"></td>	
+</select>
+</td>
+<td><button class="btn btn-default" type="submit">Go!</button></td>	
 </tr>
 
 </form>
