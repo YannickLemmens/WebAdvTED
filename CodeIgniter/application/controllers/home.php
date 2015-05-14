@@ -20,4 +20,11 @@ class home extends CI_Controller {
 		$this->load->view('footer');
 		
 	}
-}
+	
+	public function addToNewsletter () {
+		$this->load->model('Newsletter_model');
+		$data =  array ( 'emailadres' => $this->input->post('emailadres'));
+		$this->Newsletter_model->addEmail($data);
+	}
+	
+	}
