@@ -1,13 +1,37 @@
-<p>Edit Detail & Click Update Button</p>
-<?php foreach ($userUpdate as $user): ?>
+<head>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/mainstyle.css'); ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
+<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
+<style>
+	table {
+	 margin-left : 10px;
+	}
+	
+	#data input {
+		width : 100%
+	}
+	
+	#submit {
+		margin-left : 1%
+	}
 
+</style>
+</head>
+<h3>Edit Detail & Click Update Button</h3>
+<?php foreach ($userUpdate as $user): ?>
+<table class="table table-bordered" id="data">
 <form method="post" action="<?php echo base_url() . "index.php/profile/update_user_id"?>">
-<label id="hide">Id :</label>
-<input type="text" id="hide" name="did" value="<?php echo $user->id; ?>">
-<label>Name :</label>
-<input type="text" name="dname" value="<?php echo $user->username; ?>">
-<label>Email :</label>
-<input type="text" name="demail" value="<?php echo $user->email; ?>">
-<input type="submit" id="submit" name="dsubmit" value="Update">
+<th><label id="hide">Id </label></th>
+<th><label>Name </label></th>
+<th><label>Email </label></th>
+<tr>
+<td><input type="text" name="did" value="<?php echo $user->id; ?>"></span>	</td>
+<td><input type="text" name="dname" value="<?php echo $user->username; ?>"></td>
+<td><input type="text" name="demail" value="<?php echo $user->email; ?>"></td>
+
+</tr>
 </form>
+</table>
+<input type="submit" id="submit" name="dsubmit" value="Update">
 <?php endforeach; ?>
