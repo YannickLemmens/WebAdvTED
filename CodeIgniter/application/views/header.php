@@ -38,7 +38,7 @@
      <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
   <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="40" height="40" 
-        class="img-circle">  <span class=""><?php echo $this->session->userdata('user_email');?></span></a>
+        class="img-circle"><?php echo $this->session->userdata('user_email');?>  <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="user/logout">Logout</a></li>
           
