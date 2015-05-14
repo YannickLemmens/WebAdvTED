@@ -1,28 +1,42 @@
-<footer style="background:#4D4D4D">
-<div class="row" style="padding-left:20px">
-        <div class="col-md-3" id="about">
-		<h2 style="color:white">ABOUT TEDX</h2>
-			<p style="color:#EDEDED">
-			In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group.</br>
-			</br>
-			These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.
-			</p>
-		</div>
-        
-        <div class="col-md-3" id="newsletter">
-			<h2 style="color:white">Our Newsletter</h2>
-			<?php echo form_open("index.php/home/addToNewsletter");?>
-			<form action="post" >
-			<input type="email" name="emailadres" id="email" value="Emailadres" onfocus="deleteValue()">
-			<input type="submit" onclick="alert('bedankt voor het inschrijven voor de nieuwsbrief')">
-			</form>
-			<?php echo form_close();?>
-		</div>
-</div>
-</footer>
-<script>
-	function deleteValue() {
-		document.getElementById('email').value="";
-	}
-</script>
-</body>
+           		</div>
+          	</div>
+			
+		</section>
+      </section>
+
+    <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2015 - TEDxPXL
+
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+  
+
+    <script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery-ui-1.9.2.custom.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.ui.touch-punch.min.js'); ?>"></script>
+    <script class="include" type="text/javascript" src="<?php echo base_url('assets/js/jquery.dcjqaccordion.2.7.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.scrollTo.min.js'); ?>"></script>
+    <script src="<?php echo base_url('assets/js/jquery.nicescroll.js'); ?>" type="text/javascript"></script>
+	<!--common script for all pages-->
+    <script src=" <?php echo base_url('assets/js/common-scripts.js'); ?>"></script>
+
+
+    
+  <script>
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>

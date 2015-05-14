@@ -1,12 +1,9 @@
-<html>
-
-<body>
 <div class="container" style="margin-top:30px; margin-bottom:20px">
     <div class="row">
-		 <?php echo validation_errors('<p class="error">'); ?>
+         <?php echo validation_errors('<p class="error">'); ?>
         <?php echo form_open("index.php/user/registration"); ?>
             <div class="col-lg-6">
-				<div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
                 <div class="form-group">
                     <label for="user_name">Username</label>
                     <div class="input-group">
@@ -35,5 +32,3 @@
 
     </div>
 </div>
-</body>
-</html>
