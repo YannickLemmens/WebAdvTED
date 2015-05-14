@@ -29,9 +29,10 @@
 <td><input type="text" name="did" value="<?php echo $user->id; ?>"></span>	</td>
 <td><input type="text" name="dname" value="<?php echo $user->username; ?>"></td>
 <td><input type="text" name="demail" value="<?php echo $user->email; ?>"></td>
-
+<td><input type="submit" id="submit" name="dsubmit" value="Update"></td>
 </tr>
+
 </form>
 </table>
-<input type="submit" id="submit" name="dsubmit" value="Update">
+
 <?php endforeach; ?>
