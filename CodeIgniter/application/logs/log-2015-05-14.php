@@ -1375,3 +1375,4 @@ ERROR - 2015-05-14 13:57:29 --> Severity: Compile Error --> Can't use method ret
 ERROR - 2015-05-14 13:57:42 --> Severity: Parsing Error --> syntax error, unexpected '{' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
 ERROR - 2015-05-14 13:58:30 --> Severity: Parsing Error --> syntax error, unexpected '(' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
 ERROR - 2015-05-14 13:59:12 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 14:19:14 --> 404 Page Not Found: Events/index
