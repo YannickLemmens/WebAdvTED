@@ -25,7 +25,7 @@
           <ul class="nav navbar-nav">
             <li><a href="<?php echo site_url('index.php/home')?>">Home</a></li>
 			<li><a href="<?php echo site_url('index.php/register') ?>">Lid worden</a></li>
-
+			<li><a href="<?php echo site_url('index.php/forum') ?>"</a>Forum</a></li>
 			<li><a href="<?php echo site_url('index.php/about')?>">About</a></li>
 
 			
