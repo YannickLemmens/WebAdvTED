@@ -22,6 +22,7 @@ class User_model extends CI_Model {
         'user_id'  => $rows->id,
         'user_name'  => $rows->username,
         'user_email'    => $rows->email,
+		'role' => $rows ->role,
         'logged_in'  => TRUE,
       );
     }
@@ -37,7 +38,7 @@ class User_model extends CI_Model {
     'username'=>$this->input->post('user_name'),
     'email'=>$this->input->post('email_address'),
     'password'=>md5($this->input->post('password'))
-  );
+	);
   $this->db->insert('user',$data);
  }
 }

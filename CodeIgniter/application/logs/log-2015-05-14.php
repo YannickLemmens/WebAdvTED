@@ -1342,3 +1342,36 @@ INFO - 2015-05-14 11:25:47 --> File loaded: C:\xampp\htdocs\WebAdvTED\CodeIgnite
 INFO - 2015-05-14 11:25:47 --> File loaded: C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\footer.php
 INFO - 2015-05-14 11:25:47 --> Final output sent to browser
 DEBUG - 2015-05-14 11:25:47 --> Total execution time: 0.1823
+ERROR - 2015-05-14 12:37:31 --> 404 Page Not Found: Proile/index
+ERROR - 2015-05-14 12:37:34 --> Severity: Notice --> Undefined variable: userUpdate C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 12:37:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 12:38:00 --> Severity: Notice --> Undefined variable: userUpdate C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 12:38:00 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 13:12:37 --> Severity: Notice --> Undefined variable: userUpdate C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 13:12:37 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 13:13:20 --> Severity: Notice --> Undefined variable: userUpdate C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 13:13:20 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile_view.php 22
+ERROR - 2015-05-14 13:42:42 --> Severity: Parsing Error --> syntax error, unexpected '=' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:42:46 --> Severity: Notice --> Undefined index: role C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:43:27 --> Query error: Field 'role' doesn't have a default value - Invalid query: INSERT INTO `user` (`username`, `email`, `password`) VALUES ('Yannick', 'lemmens.9@gmail.com', '9c337aaf8d50bdb5a69126867ce5e2c6')
+ERROR - 2015-05-14 13:44:13 --> Severity: Parsing Error --> syntax error, unexpected ''role'' (T_CONSTANT_ENCAPSED_STRING) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:44:27 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:45:04 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:45:37 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:46:38 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:46:58 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:47:43 --> Severity: Parsing Error --> syntax error, unexpected '=' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:48:06 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:48:27 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-14 13:49:21 --> Severity: Notice --> Undefined index: role C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:50:27 --> Severity: Parsing Error --> syntax error, unexpected ';', expecting ')' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 39
+ERROR - 2015-05-14 13:51:35 --> Severity: Notice --> Undefined index: role C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:53:26 --> Severity: Notice --> Undefined index: role C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:54:19 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:55:03 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:55:09 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:56:26 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:57:29 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:57:42 --> Severity: Parsing Error --> syntax error, unexpected '{' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:58:30 --> Severity: Parsing Error --> syntax error, unexpected '(' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
+ERROR - 2015-05-14 13:59:12 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10

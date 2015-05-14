@@ -41,6 +41,7 @@ class Login extends CI_Controller {
     'user_id' => $row->id,
      'user_email' => $row->email,
      'user_name' => $row->username,
+	 'role' => $row->role,
      'logged_in' => TRUE
      );
                          

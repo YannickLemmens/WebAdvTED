@@ -4,20 +4,37 @@
 <script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
 <style>
+table {
+	margin-left : 10px;
+}
 button {
 	margin-left : 10px;
 	margin-right : 10px;
 }
+
+table th {
+	background-color : #4D94FF;
+}
+
+td a {
+	color: #000000;
+}
 </style>
+<script>
+$(document).ready(function()
+{
+  $("tr:even").css("background-color", "#DBEAFF");
+});
+</script>
 </head>
 <body>
 <h2>Administrator view of TEDxPXL</h2>
 <table class="table table-bordered">
 	<tr>
-		<td>ID</td>
-		<td>Naam</td>
-		<td>Emailadres</td>
-		<td>Bewerkingen</td>
+		<th>ID</th>
+		<th>Naam</th>
+		<th>Emailadres</th>
+		<th>Bewerken</th>
 	</tr>
 	<?php 
 	foreach($user  as $row)
