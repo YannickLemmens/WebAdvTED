@@ -37,7 +37,7 @@
  
      <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
   <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="40" height="40" 
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35" height="35" 
         class="img-circle"><?php echo $this->session->userdata('user_email'); echo "(". $this->session->userdata('role'). ")";?>  <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="user/logout">Logout</a></li>
@@ -53,4 +53,4 @@
       </div>
 
     </nav>
-    <div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>
+    <div id="fix-for-navbar-fixed-top-spacing" style="height: 50px;">&nbsp;</div>

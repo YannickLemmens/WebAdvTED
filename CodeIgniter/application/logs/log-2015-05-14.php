@@ -1376,3 +1376,8 @@ ERROR - 2015-05-14 13:57:42 --> Severity: Parsing Error --> syntax error, unexpe
 ERROR - 2015-05-14 13:58:30 --> Severity: Parsing Error --> syntax error, unexpected '(' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
 ERROR - 2015-05-14 13:59:12 --> Severity: Compile Error --> Can't use method return value in write context C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\admin.php 10
 ERROR - 2015-05-14 14:19:14 --> 404 Page Not Found: Events/index
+ERROR - 2015-05-14 15:58:24 --> 404 Page Not Found: Stylecss/index
+ERROR - 2015-05-14 15:59:55 --> 404 Page Not Found: Stylecss/index
+ERROR - 2015-05-14 15:59:57 --> 404 Page Not Found: Stylecss/index
+ERROR - 2015-05-14 16:00:43 --> 404 Page Not Found: Stylecss/index
+ERROR - 2015-05-14 16:00:55 --> 404 Page Not Found: Stylecss/index
