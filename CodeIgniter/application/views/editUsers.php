@@ -1,43 +1,17 @@
-<head>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/mainstyle.css'); ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
-<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
-<style>
-table {
-	margin-left : 10px;
-}
-button {
-	margin-left : 10px;
-	margin-right : 10px;
-}
 
-table th {
-	background-color : #4D94FF;
-}
-
-td a {
-	color: #000000;
-}
-</style>
-<script>
-$(document).ready(function()
-{
-  $("tr:even").css("background-color", "#DBEAFF");
-});
-</script>
-</head>
-<body>
 <h2>Administrator view of TEDxPXL</h2>
-<table class="table table-bordered">
-	<tr>
-		<th>ID</th>
-		<th>Naam</th>
-		<th>Emailadres</th>
-		<th>Role</th>
-		<th>Bewerken</th>
-	</tr>
-	<?php 
+<table class="table table-striped table-advance table-hover">
+ <thead>
+                              <tr>
+                                  <th><i class="fa fa-bullhorn"></i> ID</th>
+                                  <th class="hidden-phone"><i class="fa fa-question-circle"></i> Name</th>
+                                  <th><i class="fa fa-bookmark"></i> Email</th>
+                                  <th><i class=" fa fa-edit"></i> Role</th>
+                                  <th></th>
+                              </tr>
+                              </thead>
+                              <tbody>
+                              	<?php 
 	foreach($user  as $row)
 	{
 		?>
@@ -46,12 +20,23 @@ $(document).ready(function()
 			<td><?php echo $row ->username?></td>
 			<td><?php echo $row->email?></td>
 			<td><?php echo $row->role?></td>
-			<td><a href="<?php echo site_url("index.php/profile/show_user_id/".$row->id); ?>"><button class="btn btn-default" type="button">Edit</button><a href="<?php echo site_url("index.php/profile/delete_user_id/".$row->id);?>" onclick="<?php echo site_url("index.php/leden");?>"><button class="btn btn-default" type="button">Delete</button></a>
+			<td>
+	            <a href="<?php echo site_url("index.php/profile/show_user_id/".$row->id); ?>">
+	            <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
+	            <a href="<?php echo site_url("index.php/profile/delete_user_id/".$row->id);?>">
+	            <button class="btn btn-success btn-xs"><i class="fa fa-trash-o"></i></button>
+	            </a>
+	        </td>                         
+
+
 		</tr>
 		<?php
 	}
 	?>
 
-</table>
-<a href=
-</body>
+	            </td>
+                              </tr>
+                              </tbody>
+                          </table>
+      
+                              

@@ -413,8 +413,8 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #ffd777;
-    border-bottom: 1px solid #c9aa5f;
+    background: #1D2029;
+    border-bottom: 1px solid #6B0000;
 }
 
 .wrapper {
@@ -781,7 +781,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 	line-height: 60px;
 	height: 60px;
 	margin: 0;
-	background: #ff865c;
+	background: #424a5d;
 	text-align: center;
 }
 
@@ -862,7 +862,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .box0:hover p {
-	color: #ff865c;
+	color: #424a5d;
 }
 
 .box0:hover {
@@ -920,7 +920,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .custom-bar-chart .bar .value {
     position: absolute;
     bottom: 0;
-    background: #ff865c;
+    background: #424a5d;
     color: #68dff0;
     width: 100%;
     -webkit-border-radius: 5px 5px 0 0;
@@ -2216,7 +2216,7 @@ label {
 
 /*footer*/
 .site-footer {
-    background: #68dff0;
+    background: #1D2029;
     color: #fff;
     padding: 10px 0;
 }

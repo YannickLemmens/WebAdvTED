@@ -34,7 +34,7 @@
                   <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
               </div>
             <!--logo start-->
-            <a href="<?php echo site_url('index.php/home')?>" class="logo"><b>TED x PXL</b></a>
+            <a href="<?php echo site_url('index.php/home')?>" class="logo"><img id="logo" src="../assets/images/HeaderLogo.png" alt="logo"/></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
                 <!--  notification start -->
@@ -47,17 +47,24 @@
             <div class="top-menu">
               <ul class="nav pull-right top-menu">
                   <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
-                  <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35" height="35" 
-                        class="img-circle"><?php echo $this->session->userdata('user_email'); echo "(". $this->session->userdata('role'). ")";?>  <span class="caret"></span></a>
-                          <ul class="dropdown-menu" role="menu">
-                            <li><a href="user/logout">Logout</a></li>
-                          
-                          </ul>
-                        </li>
-                      </ul>
+      
+              <button type="button" class="btn btn-theme04 dropdown-toggle" data-toggle="dropdown">
+               <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35" height="35" class="img-circle">
+               <?php echo $this->session->userdata('user_email'); echo "(". $this->session->userdata('role'). ")";?> 
+
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="divider"></li>
+                <li><a href="user/logout">logout</a></li>
+              </ul>
+
+  
+
                  <?php }else{ ?>
-                <li><a href="<?php echo site_url('index.php/login')?>">login</a></li>
+                <li><a class = "btn-theme04" href="<?php echo site_url('index.php/admin')?>">login</a></li>
                 <?php } ?>
             
             </ul>
@@ -108,6 +115,22 @@
                           <i class="fa fa-calendar"></i>
                           <span>Events</span>
                       </a>
+                    </li>
+                    <?php if ($this->session->userdata('role') == "Admin") { ?>
+                 <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tachometer"></i>
+                          <span>Admin</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="<?php echo site_url('index.php/admin')?>">Dashboard</a></li>
+                          <li><a  href="<?php echo site_url('index.php/admin/getAllUsers')?>">Users</a></li>
+                          
+                      </ul>
+                  </li>
+
+                    <?php } ?>
+                     
               </ul>
               <!-- sidebar menu end-->
           </div>
@@ -115,7 +138,12 @@
       <!--sidebar end-->
 
            <section id="main-content">
+
           <section class="wrapper site-min-height">
-            <h3><i class="fa fa-angle-right"></i>Home</h3>
+            <ol class="breadcrumb">
+              <li><a href="#">TEDxPXL</a></li>
+              <li class="active">Home</li>
+              
+            </ol>
             <div class="row mt">
               <div class="col-lg-12">
