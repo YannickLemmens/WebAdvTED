@@ -13,16 +13,16 @@
 			<h2 style="color:white">Our Newsletter</h2>
 			<?php echo form_open("index.php/home/addToNewsletter");?>
 			<form action="post" >
-			<input type="text" name="emailadres" value="Emailadres">
-			<input type="submit" onclick="showPopup()">
+			<input type="email" name="emailadres" id="email" value="Emailadres" onfocus="deleteValue()">
+			<input type="submit" onclick="alert('bedankt voor het inschrijven voor de nieuwsbrief')">
 			</form>
 			<?php echo form_close();?>
 		</div>
 </div>
 </footer>
 <script>
-	function showPopup() {
-		alert("Bedankt voor het inschrijven voor de nieuwsbrief.'");
+	function deleteValue() {
+		document.getElementById('email').value="";
 	}
 </script>
 </body>
