@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/font-awesome/css/font-awesome.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style-responsive.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/timeline.css'); ?>">
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,9 +31,7 @@
       *********************************************************************************************************************************************************** -->
       <!--header start-->
       <header class="header black-bg">
-              <div class="sidebar-toggle-box">
-                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-              </div>
+        
             <!--logo start-->
             <a href="<?php echo site_url('index.php/home')?>" class="logo"><img id="logo" src="../assets/images/HeaderLogo.png" alt="logo"/></a>
             <!--logo end-->
@@ -55,7 +54,7 @@
               <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Profile</a></li>
+                <li><a href="profile">Profile</a></li>
                 <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
                 <li><a href="user/logout">logout</a></li>
