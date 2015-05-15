@@ -12,6 +12,13 @@ class Profile extends CI_Controller {
 		
 		
     }
+    function user() {
+		$data['userid'] = $this->uri->segment(3);
+		$this->load->view('header');
+		$this->load->view('profile',$data);
+		$this->load->view('footer');
+	}
+
 	
 	function delete_user_id() {
 		$id = $this->uri->segment(3);

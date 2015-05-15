@@ -62,7 +62,7 @@ foreach ($query->result() as $row)
                       	<div class="details">
 
 
-                      		<p><a href="#"><?php echo $row ->username;?></a><br/>
+                      		<p><a href="profile/user/<?php echo $row ->id;?>"><?php echo $row ->username;?></a><br/>
                       		   <muted><?php echo $row ->role;?></muted>
                       		</p>
 
