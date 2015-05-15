@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style-responsive.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/timeline.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/team.css'); ?>">
+    <link href="<?php echo base_url('assets/external/google-code-prettify/prettify.css" rel="stylesheet'); ?>" />
+ 
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

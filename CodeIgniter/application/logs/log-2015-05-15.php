@@ -45,3 +45,48 @@ ERROR - 2015-05-15 14:51:59 --> 404 Page Not Found: Stylecss/index
 ERROR - 2015-05-15 14:52:26 --> 404 Page Not Found: Stylecss/index
 ERROR - 2015-05-15 16:07:45 --> 404 Page Not Found: Stylecss/index
 ERROR - 2015-05-15 16:11:23 --> 404 Page Not Found: Stylecss/index
+ERROR - 2015-05-15 19:03:35 --> 404 Page Not Found: Profile/assets
+ERROR - 2015-05-15 19:07:21 --> 404 Page Not Found: Forum/categorie
+ERROR - 2015-05-15 19:07:29 --> 404 Page Not Found: Forum/categorie
+ERROR - 2015-05-15 19:07:36 --> Severity: Notice --> Undefined property: stdClass::$title C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 10
+ERROR - 2015-05-15 19:07:36 --> Severity: Notice --> Undefined property: stdClass::$title C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 10
+ERROR - 2015-05-15 19:07:37 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:09:21 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:09:36 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:09:41 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:09:47 --> Severity: Notice --> Undefined property: stdClass::$description C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 12
+ERROR - 2015-05-15 19:09:47 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:10:00 --> Severity: Notice --> Undefined property: stdClass::$author C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 12
+ERROR - 2015-05-15 19:10:00 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:10:12 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:10:26 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:10:54 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-15 19:30:06 --> 404 Page Not Found: Forum/newthread
+ERROR - 2015-05-15 19:30:13 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 195
+ERROR - 2015-05-15 19:30:45 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 195
+ERROR - 2015-05-15 19:31:12 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 46
+ERROR - 2015-05-15 19:31:25 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 46
+ERROR - 2015-05-15 19:31:35 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 46
+ERROR - 2015-05-15 19:31:48 --> Severity: Parsing Error --> syntax error, unexpected '{', expecting ':' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 28
+ERROR - 2015-05-15 19:31:54 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:32:00 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:33:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:34:46 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:35:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:35:24 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:36:34 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:37:45 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:38:36 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:39:19 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:39:44 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:40:43 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:41:35 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:41:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:43:17 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:43:33 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:43:49 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:45:53 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:47:04 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:47:30 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:47:47 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-15 19:48:12 --> 404 Page Not Found: Assets/images

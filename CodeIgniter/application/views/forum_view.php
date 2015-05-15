@@ -1,23 +1,50 @@
-<!DOCTYPE html>
-<html>
-<header>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/forumstyle.css'); ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
-</header>
+<?php
 
-<body>
+if(isset($catid))
+{
+	        $query = $this->db->get_where('topics', array('categorie' => $catid));
+	       
+  		foreach ($query->result() as $row)
+        {
+
+        	echo '<a href= "#"><div class="showback">';
+        	echo '<h4>'. $row->title .'</h5>';
+        	echo '<span>started by '. $row->authorid .'</span>';
+        	echo '</div></a>';
+
+        }
+
+
+}
+if(isset($newtopic))
+{
+?>
+<div id="editor" contenteditable="true">
+      Go ahead…
+    </div>
+
+<?php
+
+}
+
+
+else{
+
+        $query = $this->db->get('categories');
+
+
+        foreach ($query->result() as $row)
+        {
+
+        	echo '<a href= "forum/categorie/'. $row->id .'"><div class="showback">';
+        	echo '<h4>'. $row->name .'</h5>';
+        	echo '<p>'. $row->description .'</p>';
+        	echo '</div></a>';
+
+        }
+}
+
+
+
+?>
 	
-		<?php
-	//create_cat.php
-	echo '<tr>';
-		echo '<td class="leftpart">';
-			echo '<h3><a href="category.php?id=">Category name</a></h3> Category description goes here';
-		echo '</td>';
-		echo '<td class="rightpart">';                
-				echo '<a href="topic.php?id=">Topic subject</a> at 10-10';
-		echo '</td>';
-	echo '</tr>';
-	?>
-	
-</body>
-</html>
