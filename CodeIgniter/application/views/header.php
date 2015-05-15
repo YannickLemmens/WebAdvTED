@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style-responsive.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/timeline.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/team.css'); ?>">
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -144,5 +145,6 @@
               <li class="active">Home</li>
               
             </ol>
+
             <div class="row mt">
               <div class="col-lg-12">
