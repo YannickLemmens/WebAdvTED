@@ -21,7 +21,12 @@
 	
                 </form>
             </div>
-            <a href="<?php echo site_url('index.php/register')?>" class="text-center new-account">Create an account </a>
+            <a href="<?php echo site_url('index.php/register')?>" class="text-center new-account">Create an account</a>  or login with Facebook: 
+			
+			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+			</fb:login-button>
+			<div id="status"></div>
+			
         </div>
     </div>
 </div>
