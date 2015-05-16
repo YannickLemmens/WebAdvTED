@@ -27,12 +27,12 @@
   width: 100%;
 }
 
-.event .rsvp i {
+.event .rsvp p {
   font-size: 2em;
   display: block;
   position:relative;
   top:17%;
-  margin-bottom:5px;
+  margin-bottom:2px;
 }
 .event .rsvp i:last-of-type{
     font-size:1.5em;
@@ -48,79 +48,37 @@
 </br>
 </br>
 
-<div class="panel panel-default event">
-  <div class="panel-body">
-    <div class="rsvp col-xs-2 col-sm-2">
-      <i>18</i>
-      <i>nov</i>
-      
-    </div>
-    <div class="info col-xs-8 col-sm-7">
-     <h3> Event Title</h3>
-     </hr>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et commodo quam. Maecenas sed pretium leo. Ut sollicitudin elementum arcu, et rhoncus arcu blandit eget. Aenean porttitor felis non elit congue volutpat. Fusce varius turpis eget luctus lobortis. Nam porta ex ut ante pellentesque porta. Sed ut odio ullamcorper, laoreet massa vitae, ullamcorper turpis. Nunc fringilla fermentum mauris, quis euismod nisi ornare euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis finibus urna vitae felis euismod ultrices. Fusce sapien est, pretium eu tellus et, accumsan dictum leo. Etiam arcu metus, rutrum non ligula quis, euismod aliquet neque. Fusce nec dui feugiat, molestie quam eu, imperdiet diam. Sed dictum lorem et velit mattis pretium.</p>
-      
-     <span class="glyphicon glyphicon-map-marker" aria-hidden="true">event location</span>
-     </br>
+<?php
+$servername = "91.121.5.88";
+$username = "mc_pxl";
+$password = "1wrq97gb";
+$dbname = "mc_pxl";
 
-        
-    </div>
-  </div>
-</div>
-<div class="panel panel-default event">
-  <div class="panel-body">
-    <div class="rsvp col-xs-2 col-sm-2">
-      <i>18</i>
-      <i>nov</i>
-      
-    </div>
-    <div class="info col-xs-8 col-sm-7">
-     <h3> Event Title</h3>
-     </hr>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et commodo quam. Maecenas sed pretium leo. Ut sollicitudin elementum arcu, et rhoncus arcu blandit eget. Aenean porttitor felis non elit congue volutpat. Fusce varius turpis eget luctus lobortis. Nam porta ex ut ante pellentesque porta. Sed ut odio ullamcorper, laoreet massa vitae, ullamcorper turpis. Nunc fringilla fermentum mauris, quis euismod nisi ornare euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis finibus urna vitae felis euismod ultrices. Fusce sapien est, pretium eu tellus et, accumsan dictum leo. Etiam arcu metus, rutrum non ligula quis, euismod aliquet neque. Fusce nec dui feugiat, molestie quam eu, imperdiet diam. Sed dictum lorem et velit mattis pretium.</p>
-      
-     <span class="glyphicon glyphicon-map-marker" aria-hidden="true">event location</span>
-     </br>
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-        
-    </div>
-  </div>
-</div>
-<div class="panel panel-default event">
-  <div class="panel-body">
-    <div class="rsvp col-xs-2 col-sm-2">
-      <i>18</i>
-      <i>nov</i>
-      
-    </div>
-    <div class="info col-xs-8 col-sm-7">
-     <h3> Event Title</h3>
-     </hr>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et commodo quam. Maecenas sed pretium leo. Ut sollicitudin elementum arcu, et rhoncus arcu blandit eget. Aenean porttitor felis non elit congue volutpat. Fusce varius turpis eget luctus lobortis. Nam porta ex ut ante pellentesque porta. Sed ut odio ullamcorper, laoreet massa vitae, ullamcorper turpis. Nunc fringilla fermentum mauris, quis euismod nisi ornare euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis finibus urna vitae felis euismod ultrices. Fusce sapien est, pretium eu tellus et, accumsan dictum leo. Etiam arcu metus, rutrum non ligula quis, euismod aliquet neque. Fusce nec dui feugiat, molestie quam eu, imperdiet diam. Sed dictum lorem et velit mattis pretium.</p>
-      
-     <span class="glyphicon glyphicon-map-marker" aria-hidden="true">event location</span>
-     </br>
+if ($conn ->connect_error){
+	die("Connection failed: " .$conn ->connect_error);
+}
 
-        
-    </div>
-  </div>
-</div>
-<div class="panel panel-default event">
-  <div class="panel-body">
-    <div class="rsvp col-xs-2 col-sm-2">
-      <i>18</i>
-      <i>nov</i>
-      
-    </div>
-    <div class="info col-xs-8 col-sm-7">
-     <h3> Event Title</h3>
-     </hr>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et commodo quam. Maecenas sed pretium leo. Ut sollicitudin elementum arcu, et rhoncus arcu blandit eget. Aenean porttitor felis non elit congue volutpat. Fusce varius turpis eget luctus lobortis. Nam porta ex ut ante pellentesque porta. Sed ut odio ullamcorper, laoreet massa vitae, ullamcorper turpis. Nunc fringilla fermentum mauris, quis euismod nisi ornare euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis finibus urna vitae felis euismod ultrices. Fusce sapien est, pretium eu tellus et, accumsan dictum leo. Etiam arcu metus, rutrum non ligula quis, euismod aliquet neque. Fusce nec dui feugiat, molestie quam eu, imperdiet diam. Sed dictum lorem et velit mattis pretium.</p>
-      
-     <span class="glyphicon glyphicon-map-marker" aria-hidden="true">event location</span>
-     </br>
+$sql = "SELECT id, title, description, date, location FROM events ORDER BY date";
+$result  = $conn -> query($sql);
 
-        
-    </div>
-  </div>
-</div>
+if($result->num_rows > 0){
+	while($row = $result->fetch_assoc()){
+		echo"<div class='panel panel-default event'>";
+		echo"<div class='panel-body'>";
+		echo"<div class='rsvp col-xs-2 col-sm-2'>";
+		echo"<p>".$row["date"]."</p>";
+		echo" </div>";
+		echo"<div class='info col-xs-8 col-sm-7'>";
+		echo"<h3>".$row["title"]."</h3>";
+		echo"</hr>";
+		echo"<p>".$row["description"]."</p>";
+		echo "<a><span class='glyphicon glyphicon-map-marker' aria-hidden='true'>".$row["location"]."</span></a>";
+		echo"</br> </div> </div> </div> ";
+	}
+}
+
+$conn->close();
+?>
+

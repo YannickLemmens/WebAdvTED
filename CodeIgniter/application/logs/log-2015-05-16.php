@@ -53,3 +53,4 @@ ERROR - 2015-05-16 18:23:10 --> 404 Page Not Found: Stylecss/index
 ERROR - 2015-05-16 18:37:50 --> 404 Page Not Found: Topic/index
 ERROR - 2015-05-16 18:37:51 --> 404 Page Not Found: Forum/index
 ERROR - 2015-05-16 18:37:54 --> 404 Page Not Found: Forum/index
+ERROR - 2015-05-16 20:09:25 --> 404 Page Not Found: Forum/assets
