@@ -25,6 +25,78 @@
   </head>
 
   <body>
+  <script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  appId      : '1575233266064947',
+		  xfbml      : true,
+		  version    : 'v2.3'
+		});
+	  };
+
+	  (function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "//connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+	<script>
+
+	  function statusChangeCallback(response) {
+		console.log('statusChangeCallback');
+		console.log(response);
+
+		if (response.status === 'connected') {
+
+		  testAPI();
+		} else if (response.status === 'not_authorized') {
+
+		  document.getElementById('status').innerHTML = 'Please log ' +
+			'into this app.';
+		} else {
+
+		  document.getElementById('status').innerHTML = 'Please log ' +
+			'into Facebook.';
+		}
+	  }
+
+
+	  function checkLoginState() {
+		FB.getLoginStatus(function(response) {
+		  statusChangeCallback(response);
+		});
+	  }
+
+	  window.fbAsyncInit = function() {
+	  FB.init({
+		appId      : '{your-app-id}',
+		cookie     : true,  // enable cookies to allow the server to access 
+							// the session
+		xfbml      : true,  // parse social plugins on this page
+		version    : 'v2.2' // use version 2.2
+	  });
+
+
+	  FB.getLoginStatus(function(response) {
+		statusChangeCallback(response);
+	  });
+
+	  };
+
+	  (function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));
+
+	  
+	  }
+</script>
 
   <section id="container" >
       <!-- **********************************************************************************************************************************************************
@@ -45,6 +117,7 @@
                 </ul>
            </div>
             <div class="top-menu">
+			
               <ul class="nav pull-right top-menu">
                   <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
       
@@ -54,19 +127,17 @@
 
               <span class="caret"></span>
               </button>
+			  
               <ul class="dropdown-menu" role="menu">
                 <li><a href="profile">Profile</a></li>
                 <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
                 <li><a href="user/logout">logout</a></li>
               </ul>
-
-  
-
                  <?php }else{ ?>
                 <li><a class = "btn-theme04" href="<?php echo site_url('index.php/admin')?>">login</a></li>
-                <?php } ?>
-            
+                <?php } ?>  </br> 
+				
             </ul>
           </li>
         </ul>
