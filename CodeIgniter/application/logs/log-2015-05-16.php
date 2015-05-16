@@ -54,3 +54,54 @@ ERROR - 2015-05-16 18:37:50 --> 404 Page Not Found: Topic/index
 ERROR - 2015-05-16 18:37:51 --> 404 Page Not Found: Forum/index
 ERROR - 2015-05-16 18:37:54 --> 404 Page Not Found: Forum/index
 ERROR - 2015-05-16 20:09:25 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-16 20:24:56 --> 404 Page Not Found: Event_volledigphp/index
+ERROR - 2015-05-16 20:27:46 --> Severity: Parsing Error --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:27:50 --> Severity: Parsing Error --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:29:04 --> Severity: Parsing Error --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:29:37 --> 404 Page Not Found: Event_volledigphp/index
+ERROR - 2015-05-16 20:30:18 --> 404 Page Not Found: Event_volledigphp/index
+ERROR - 2015-05-16 20:37:11 --> 404 Page Not Found: Event_volledigphp/index
+ERROR - 2015-05-16 20:39:31 --> 404 Page Not Found: Event_volledigphp/index
+ERROR - 2015-05-16 20:39:43 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-16 20:43:09 --> Severity: Parsing Error --> syntax error, unexpected '?' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:43:36 --> Severity: Parsing Error --> syntax error, unexpected '?' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:44:06 --> Severity: Notice --> Undefined index: id C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 2
+ERROR - 2015-05-16 20:45:40 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:40 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:40 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:48 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:48 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:48 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:53 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:53 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:45:53 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:46:00 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:46:00 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:46:00 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 75
+ERROR - 2015-05-16 20:46:34 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 74
+ERROR - 2015-05-16 20:46:34 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 74
+ERROR - 2015-05-16 20:46:34 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events.php 74
+ERROR - 2015-05-16 21:01:17 --> Severity: Parsing Error --> syntax error, unexpected '}', expecting ',' or ';' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 41
+ERROR - 2015-05-16 21:03:54 --> Severity: Parsing Error --> syntax error, unexpected '}', expecting ',' or ';' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 41
+ERROR - 2015-05-16 21:29:34 --> Severity: Notice --> Undefined index: xcoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:29:34 --> Severity: Notice --> Undefined index: ycoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:29:46 --> Severity: Notice --> Undefined index: xcoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:29:46 --> Severity: Notice --> Undefined index: ycoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:29:52 --> Severity: Notice --> Undefined index: xcoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:29:52 --> Severity: Notice --> Undefined index: ycoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:30:32 --> Severity: Notice --> Undefined index: xcoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:30:32 --> Severity: Notice --> Undefined index: ycoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:31:26 --> Severity: Parsing Error --> syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:32:41 --> Severity: Notice --> Undefined index: xcoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:32:41 --> Severity: Notice --> Undefined index: ycoord C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 45
+ERROR - 2015-05-16 21:35:01 --> Severity: Parsing Error --> syntax error, unexpected '<' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 43
+ERROR - 2015-05-16 21:41:51 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:41:51 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:43:21 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:43:21 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:45:04 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:45:04 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:45:45 --> Severity: Notice --> Use of undefined constant xcoord - assumed 'xcoord' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:45:45 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:45:45 --> Severity: Notice --> Use of undefined constant ycoord - assumed 'ycoord' C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30
+ERROR - 2015-05-16 21:45:45 --> Severity: Notice --> Undefined variable: row C:\xampp_2Tin\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 30

@@ -70,11 +70,9 @@ if($result->num_rows > 0){
 		echo"<div class='rsvp col-xs-2 col-sm-2'>";
 		echo"<p>".$row["date"]."</p>";
 		echo" </div>";
-		echo"<div class='info col-xs-8 col-sm-7'>";
-		echo"<h3>".$row["title"]."</h3>";
+		echo"<div class='info col-xs-8 col-sm-7'>";		
+		echo"<a href='http://localhost/WebAdvTED/CodeIgniter/index.php/events_volledig?id=$row[id]'><h3>".$row["title"]."</h3></a>";		
 		echo"</hr>";
-		echo"<p>".$row["description"]."</p>";
-		echo "<a><span class='glyphicon glyphicon-map-marker' aria-hidden='true'>".$row["location"]."</span></a>";
 		echo"</br> </div> </div> </div> ";
 	}
 }
