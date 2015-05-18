@@ -35,7 +35,9 @@ class Profile extends CI_Controller {
 		$id = $this->uri->segment(3);
 		$data['users'] = $this->Members_model->get_users();
 		$data['userUpdate'] = $this->Members_model->show_user_id($id);
+		$this->load->view('header');
 		$this->load->view('profile_view',$data);
+		$this->load->view('footer');
 	}
 	
 	function update_user_id() {

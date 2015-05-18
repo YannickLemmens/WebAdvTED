@@ -7,7 +7,7 @@
 </div>
  <div class="col-lg-3 ds">
                     <!--COMPLETED ACTIONS DONUTS CHART-->
-						<h3>Upcomming events</h3>
+						<h3>Upcoming events</h3>
                                         
                       <!-- First Action -->
                       <div class="desc">
