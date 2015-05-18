@@ -220,9 +220,12 @@
                     </li>
                     <?php if ($this->session->userdata('role') == "Admin") { ?>
                  <li class="sub-menu">
-                      <a href="javascript:;" >
+						<a href="<?php echo site_url('index.php/admin')?>">
+                      <!--<a href="javascript:;" >-->
                           <i class="fa fa-tachometer"></i>
-                          <span>Admin</span>
+						  Admin
+                          <!--<span>Admin</span>-->
+						  
                       </a>
                       <ul class="sub">
                           <li><a  href="<?php echo site_url('index.php/admin')?>">Dashboard</a></li>

@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 			$query = $this->db->get_where('user', array('id' => $userid), 1);
 			if ($query->num_rows() ==0)
 				echo "<p>user does not exist</p>";
