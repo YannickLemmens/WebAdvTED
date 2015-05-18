@@ -9,9 +9,13 @@ class Profile extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('profile');
 		$this->load->view('footer');
-		
-		
+	}
+	function addAUser(){
+		$this->load->view('header');
+		$this->load->view('newUser');
+		$this->load->view('footer');
     }
+	
     function user() {
 		$data['userid'] = $this->uri->segment(3);
 		$this->load->view('header');
@@ -51,6 +55,16 @@ class Profile extends CI_Controller {
 		$this->Members_model->update_user_id($id,$data);
 		redirect("index.php/admin/getAllUsers");
 	}
-
+	
+	function addUser() {
+		$data = array(
+		'username' => $this->input->post('newUserName'),
+		'email' => $this->input->post('newUserEmail'),
+		'password'=> md5($this->input->post('newUserPassword')),
+		'role'=>$this->input->post('newUserRole')
+		);
+		$this->Members_model->addUser($data);
+		redirect("index.php/admin/getAllUsers");
+	}
 
 }

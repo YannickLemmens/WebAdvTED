@@ -280,3 +280,340 @@ ERROR - 2015-05-18 12:31:14 --> Severity: Notice --> Use of undefined constant I
 ERROR - 2015-05-18 12:31:14 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
 ERROR - 2015-05-18 12:31:14 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
 ERROR - 2015-05-18 12:31:14 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:40:49 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:40:49 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:40:49 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:40:49 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:40:49 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:40:49 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:40:49 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:40:49 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:40:49 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:40:49 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:40:49 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:40:49 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:40:49 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:40:49 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:42:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:27 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:27 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:27 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:27 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:27 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:27 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:27 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:27 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:27 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:27 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:42:27 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:42:27 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:44:07 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:44:07 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:44:07 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:44:07 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:44:07 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:44:07 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:44:07 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:44:08 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:02 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:02 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:45:20 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:20 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:45:20 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:20 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:45:48 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:46:10 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:46:10 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:46:10 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:46:10 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:46:10 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:46:10 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:46:10 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:46:10 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:46:10 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:46:10 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:46:10 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:46:10 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 23
+ERROR - 2015-05-18 12:46:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:46:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:46:21 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:46:21 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:46:30 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:46:33 --> 404 Page Not Found: Profile/assets
+ERROR - 2015-05-18 12:47:14 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:47:14 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:49:07 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:49:07 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:49:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:50:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:02 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:02 --> Severity: Notice --> Use of undefined constant ID - assumed 'ID' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:03 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:50:03 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:50:57 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:57 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:57 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:57 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:57 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:57 --> Severity: Notice --> Use of undefined constant id - assumed 'id' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_admin.php 21
+ERROR - 2015-05-18 12:50:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:50:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:52:04 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:52:04 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:52:18 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:52:18 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 12:52:20 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:52:54 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:53:40 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:53:44 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:54:22 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:55:00 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:55:03 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:55:06 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:55:52 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:56:44 --> Severity: Error --> Call to undefined function show_events_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:57:25 --> Severity: Error --> Call to undefined function show_events_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:57:31 --> Severity: Error --> Call to undefined function show_events_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:57:40 --> 404 Page Not Found: Profile/assets
+ERROR - 2015-05-18 12:57:45 --> Severity: Error --> Call to undefined function show_events_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:58:40 --> 404 Page Not Found: Events/show_events_id
+ERROR - 2015-05-18 12:58:42 --> Severity: Error --> Call to undefined function show_events_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:59:18 --> Severity: Error --> Call to undefined function showEventByID() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:59:32 --> Severity: Error --> Call to undefined function showEventById() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 12:59:35 --> Severity: Error --> Call to undefined function showEventById() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 13:02:21 --> Severity: Error --> Call to undefined function show_eevent_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 13:02:31 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 13:02:34 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:02:34 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:03:31 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 13:04:09 --> Severity: Error --> Call to undefined function show_event_id() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\events.php 39
+ERROR - 2015-05-18 13:04:38 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:06:31 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:06:32 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:06:55 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:06:55 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:07:22 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:07:22 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:07:32 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:07:32 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:07:48 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:07:48 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:08:26 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:08:26 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:08:45 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:08:45 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:09:00 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:09:00 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:10:03 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:10:04 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:10:38 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:10:38 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:10:48 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:10:51 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:10:53 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:11:45 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:11:45 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:13:32 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:13:32 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:13:52 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:13:52 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:14:12 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:14:12 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:14:37 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:14:37 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:14:51 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:14:52 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:16:00 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:16:00 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:16:20 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:16:20 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:16:55 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:16:55 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:17:07 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:17:07 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:17:57 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:17:57 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:18:04 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:18:04 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:18:09 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:18:09 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:18:50 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:18:51 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:10 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:10 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:14 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:14 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:16 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:16 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:28 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:28 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:59 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:19:59 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:20:28 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:20:28 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:20:48 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:20:48 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:20:59 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:20:59 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:08 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:08 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:12 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:12 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:23 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:24 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:27 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:27 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:36 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:36 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:41 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:21:41 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:22:31 --> Severity: Parsing Error --> syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\event_edit_view.php 42
+ERROR - 2015-05-18 13:22:36 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:22:37 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:23:51 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:23:51 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:23:55 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:24:01 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:24:03 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:24:10 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:24:10 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:24:37 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:24:37 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:24:43 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:24:43 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:03 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:03 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:16 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:16 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:20 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:20 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:25:55 --> Severity: Parsing Error --> syntax error, unexpected ''index.php/admin/getallevents'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\Admin_view.php 4
+ERROR - 2015-05-18 13:26:04 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:26:16 --> Severity: Parsing Error --> syntax error, unexpected ''index.php/admin/getAllEvents'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\Admin_view.php 4
+ERROR - 2015-05-18 13:26:18 --> Severity: Parsing Error --> syntax error, unexpected ''index.php/admin/getAllEvents'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\Admin_view.php 4
+ERROR - 2015-05-18 13:26:40 --> Severity: Parsing Error --> syntax error, unexpected ''index.php/admin/getAllEvents'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\Admin_view.php 4
+ERROR - 2015-05-18 13:26:58 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:27:01 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:33:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:34:27 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:34:45 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:34:46 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:34:59 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:34:59 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-18 13:36:00 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:36:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:36:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:36:12 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:36:12 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:36:19 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:36:19 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:39:23 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:39:23 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:39:28 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)
+ERROR - 2015-05-18 13:40:05 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:05 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:06 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)
+ERROR - 2015-05-18 13:40:14 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:14 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:16 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:37 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:37 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:40:44 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)
+ERROR - 2015-05-18 13:41:33 --> 404 Page Not Found: Events/addEvent
+ERROR - 2015-05-18 13:41:36 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:41:42 --> Query error: Column 'title' cannot be null - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL)
+ERROR - 2015-05-18 13:42:26 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:42:26 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:42:33 --> Query error: Incorrect date value: 'test' for column 'date' at row 1 - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES ('test', 'test', 'test', 'test', 'test', 'test')
+ERROR - 2015-05-18 13:42:40 --> Query error: Incorrect date value: '' for column 'date' at row 1 - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES ('test', 'test', '', 'test', 'test', 'test')
+ERROR - 2015-05-18 13:42:47 --> Query error: Incorrect date value: '' for column 'date' at row 1 - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES ('test', 'test', '', 'test', 'test', 'test')
+ERROR - 2015-05-18 13:43:12 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:43:12 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:43:16 --> Query error: Incorrect date value: '' for column 'date' at row 1 - Invalid query: INSERT INTO `events` (`title`, `description`, `date`, `location`, `xcoord`, `ycoord`) VALUES ('test', 'test', '', 'test', '', '')
+ERROR - 2015-05-18 13:44:38 --> Severity: Notice --> Use of undefined constant Y - assumed 'Y' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\add_Event_view.php 34
+ERROR - 2015-05-18 13:44:38 --> Severity: Notice --> Use of undefined constant m - assumed 'm' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\add_Event_view.php 34
+ERROR - 2015-05-18 13:44:38 --> Severity: Notice --> Use of undefined constant d - assumed 'd' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\add_Event_view.php 34
+ERROR - 2015-05-18 13:44:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:44:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:44:54 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:44:54 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:45:02 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:45:02 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:45:10 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:45:26 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:49:19 --> Severity: Parsing Error --> syntax error, unexpected ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\Members_model.php 57
+ERROR - 2015-05-18 13:50:24 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:50:24 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:50:50 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:50:50 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:50:57 --> 404 Page Not Found: Profile/addAUser
+ERROR - 2015-05-18 13:51:20 --> Severity: Parsing Error --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\profile.php 14
+ERROR - 2015-05-18 13:51:28 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:51:28 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:51:52 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:51:52 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:02 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:02 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:31 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:31 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:38 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:52:46 --> Query error: Field 'password' doesn't have a default value - Invalid query: INSERT INTO `user` (`username`, `email`, `role`) VALUES ('test', 'test', 'Member')
+ERROR - 2015-05-18 13:54:34 --> Severity: Parsing Error --> syntax error, unexpected '<' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\profile.php 63
+ERROR - 2015-05-18 13:54:35 --> Severity: Parsing Error --> syntax error, unexpected '<' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\profile.php 63
+ERROR - 2015-05-18 13:54:44 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:54:44 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:56:07 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:56:07 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:56:16 --> Severity: Error --> Call to undefined method Profile::input() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\profile.php 63
+ERROR - 2015-05-18 13:56:37 --> Severity: Parsing Error --> syntax error, unexpected '=>' (T_DOUBLE_ARROW) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\profile.php 64
+ERROR - 2015-05-18 13:56:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:56:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-18 13:57:05 --> Query error: Field 'image' doesn't have a default value - Invalid query: INSERT INTO `user` (`username`, `email`, `password`, `role`) VALUES ('test', 'test', NULL, 'Admin')
+ERROR - 2015-05-18 13:57:28 --> Query error: Column 'password' cannot be null - Invalid query: INSERT INTO `user` (`username`, `email`, `password`, `role`) VALUES ('test', 'test', NULL, 'Admin')
+ERROR - 2015-05-18 13:59:04 --> Query error: Column 'password' cannot be null - Invalid query: INSERT INTO `user` (`username`, `email`, `password`, `role`) VALUES ('test', 'test', NULL, 'Admin')
+ERROR - 2015-05-18 14:00:49 --> 404 Page Not Found: Assets/images

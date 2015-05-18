@@ -1,22 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class event_model extends CI_Model {
- public function __construct()
- {
-  parent::__construct();
- }
+ 
 public function getEvents() {
 	return $this->db->get('events')->result();
 }
- 
- public function showEventById($data)
- {
-		$this->db->select('*');
-		$this->db->from('events');
-		$this->db->where('ID', $data);
-		$query = $this->db->get();
-		$result = $query->result();
-		return $result;
- }
  
 
 	public function get_event_info($id){
@@ -56,5 +43,10 @@ public function getEvents() {
 	function update_event_id($id,$data){
 		$this->db->where('ID', $id);
 		$this->db->update('events', $data);
+	}
+	
+	function addEvent($data)
+	{
+		$this->db->insert('events',$data);
 	}
 }

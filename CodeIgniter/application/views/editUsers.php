@@ -34,9 +34,11 @@
 	}
 	?>
 
-	            </td>
-                              </tr>
-                              </tbody>
-                          </table>
-      
+</td>
+</tr>
+</tbody>
+</table>
+
+<a href="<?php echo site_url('index.php/profile/addAUser');?>"><button type="submit">Add User</button></a>
+
                               
