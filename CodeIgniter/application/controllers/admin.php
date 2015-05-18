@@ -4,6 +4,7 @@ class admin extends CI_Controller {
  {
 		parent::__construct();
 		$this->load->model('Members_model');
+		$this->load->model('event_model');
  }
 	
 	function index() {
@@ -24,6 +25,13 @@ class admin extends CI_Controller {
 		$data['userview'] = "active";
 		$this->load->view('header');
 		$this->load->view('editUsers', $data);
+		$this->load->view('footer');
+	}
+	
+	function getAllEvents() {
+		$data['events'] = $this->event_model->getEvents();
+		$this->load->view('header');
+		$this->load->view('event_admin',$data);
 		$this->load->view('footer');
 	}
 }
