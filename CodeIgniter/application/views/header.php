@@ -24,9 +24,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
   
   
    <script>
@@ -126,7 +124,9 @@
 		});
 	  }
 </script>
-  
+    </head>
+
+  <body>
 
   <section id="container" >
       <!-- **********************************************************************************************************************************************************
@@ -136,7 +136,7 @@
       <header class="header black-bg">
         
             <!--logo start-->
-            <a href="<?php echo site_url('index.php/home')?>" class="logo"><img id="logo" src="../assets/images/HeaderLogo.png" alt="logo"/></a>
+            <a href="<?php echo site_url('index.php/home')?>" class="logo"><img id="logo" src="<?php echo base_url('/assets/images/HeaderLogo.png'); ?>" alt="logo"/></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
                 <!--  notification start -->
