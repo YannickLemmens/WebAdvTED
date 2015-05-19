@@ -4,25 +4,31 @@
         height: 400px;
 		background-color: #CCC;
       }	  
+
 </style>
-<body>
+<script src="https://maps.googleapis.com/maps/api/js"> 
+</script>
 <?php
-foreach ($eventsVolledig  as $row)
+foreach ($eventVolledig  as $row)
  {
-		?>
-		<div class="panel panel-default event">
-		<div class="panel-body">
-		<div class="rsvp col-xs-2 col-sm-2">
-		<i> <?php echo $row -> date ?></i>
-		</div>
-		<div class="info col-xs-8 col-sm-7">
-		<a href=<?php echo site_url('index.php/events/show_event_volledig/'.$row->ID);?>><h3><?php echo $row -> title ?></h3></a>
-		</hr>
-		</br>
-		</div>
-		</div>
-		</div>
+	 	?>
+<script>
+function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng( <?php echo $row -> xcoord ?>,<?php echo $row -> ycoord?>),
+          zoom: 17 ,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+ </script>
+ <body>
+	<h1 id="title"><?php echo $row -> title?></h1>
+	<p id ="tekst"><?php echo $row -> description ?></p>
+	<div id="map-canvas"></div>
+ </body>	
 	<?php	
 }
 		?>
-</body>
