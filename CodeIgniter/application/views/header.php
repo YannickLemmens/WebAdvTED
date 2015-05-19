@@ -246,8 +246,13 @@
 
           <section class="wrapper site-min-height">
             <ol class="breadcrumb">
-              <li><a href="#">TEDxPXL</a></li>
-              <li class="active">Home</li>
+              <li><a href="<?php echo site_url('index.php/home')?>">TEDxPXL</a></li>
+              <li class="active"><?php 	
+			   $request_path = $_SERVER['REQUEST_URI'];
+				$path = explode("/", $request_path); // splitting the path
+				$last = end($path);
+				echo $last;
+			  ?></li>
               
             </ol>
 
