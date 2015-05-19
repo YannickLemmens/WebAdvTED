@@ -47,38 +47,25 @@
 </br>
 </br>
 </br>
+<body>
 
 <?php
-$servername = "91.121.5.88";
-$username = "mc_pxl";
-$password = "1wrq97gb";
-$dbname = "mc_pxl";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn ->connect_error){
-	die("Connection failed: " .$conn ->connect_error);
+foreach ($events  as $row)
+ {
+		?>
+		<div class="panel panel-default event">
+		<div class="panel-body">
+		<div class="rsvp col-xs-2 col-sm-2">
+		<i> <?php echo $row -> date ?></i>
+		</div>
+		<div class="info col-xs-8 col-sm-7">
+		<a href="<?php echo site_url('index.php/events/show_event_volledig/'.$row->ID);?>"><h3><?php echo $row -> title ?></h3></a>
+		</hr>
+		</br>
+		</div>
+		</div>
+		</div>
+	<?php	
 }
-
-$sql = "SELECT id, title, description, date, location FROM events ORDER BY date";
-$result  = $conn -> query($sql);
-
-if($result->num_rows > 0){
-	while($row = $result->fetch_assoc()){
-		echo"<div class='panel panel-default event'>";
-		echo"<div class='panel-body'>";
-		echo"<div class='rsvp col-xs-2 col-sm-2'>";
-		echo"<p>".$row["date"]."</p>";
-		echo" </div>";
-		echo"<div class='info col-xs-8 col-sm-7'>";		
-		echo"<a href='http://localhost/WebAdvTED/CodeIgniter/index.php/events_volledig?id=$row[id]'><h3>".$row["title"]."</h3></a>";		
-		echo"</hr>";
-		echo"</br> </div> </div> </div> ";
-	}
-}
-
-$conn->close();
-?>
-
-
-
+		?>
+</body>
