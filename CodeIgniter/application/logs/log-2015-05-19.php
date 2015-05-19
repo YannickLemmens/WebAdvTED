@@ -127,3 +127,11 @@ ERROR - 2015-05-19 16:00:57 --> 404 Page Not Found: Events/assets
 ERROR - 2015-05-19 16:01:54 --> 404 Page Not Found: Events/assets
 ERROR - 2015-05-19 16:15:02 --> 404 Page Not Found: Events/assets
 ERROR - 2015-05-19 16:15:30 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-19 16:51:07 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-19 16:51:40 --> 404 Page Not Found: Forum/assets
+ERROR - 2015-05-19 16:51:57 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-19 16:52:07 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-19 16:52:12 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-19 16:52:21 --> 404 Page Not Found: Events/assets
+ERROR - 2015-05-19 17:54:39 --> 404 Page Not Found: Assets/images
+ERROR - 2015-05-19 17:55:34 --> 404 Page Not Found: Assets/images
