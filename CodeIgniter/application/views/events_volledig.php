@@ -5,44 +5,24 @@
 		background-color: #CCC;
       }	  
 </style>
+<body>
 <?php
-$servername = "91.121.5.88";
-$username = "mc_pxl";
-$password = "1wrq97gb";
-$dbname = "mc_pxl";
-
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn ->connect_error){
-	die("Connection failed: " .$conn ->connect_error);
+foreach ($eventsVolledig  as $row)
+ {
+		?>
+		<div class="panel panel-default event">
+		<div class="panel-body">
+		<div class="rsvp col-xs-2 col-sm-2">
+		<i> <?php echo $row -> date ?></i>
+		</div>
+		<div class="info col-xs-8 col-sm-7">
+		<a href=<?php echo site_url('index.php/events/show_event_volledig/'.$row->ID);?>><h3><?php echo $row -> title ?></h3></a>
+		</hr>
+		</br>
+		</div>
+		</div>
+		</div>
+	<?php	
 }
-
-$sql = "SELECT id, title, description, date, location FROM events WHERE id=$_GET[id]";
-$result  = $conn -> query($sql);
-?>
-<script src="https://maps.googleapis.com/maps/api/js"> 
-</script>
-<script>
-function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng( 50.9289019,5.3898276 ),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
- </script>
-<?php
-if($result->num_rows > 0){
-	while($row = $result->fetch_assoc()){
-		echo "<h1>".$row["title"]."</h1>";
-		echo "<p>".$row["description"]."</p>";
-		echo "<div id='map-canvas'></div>";
-	}
-}
-
-$conn->close();
-?>
+		?>
+</body>

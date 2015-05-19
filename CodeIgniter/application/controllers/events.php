@@ -5,10 +5,11 @@ class events extends CI_Controller {
 		parent::__construct();
 			$this->load->model('event_model');
 }
-	public function index () {
+	public function index () {		
 		$this->load->helper('url');
+		$data['events'] = $this->event_model->getEvents();
 		$this->load->view('header');
-		$this->load->view('events');
+		$this->load->view('events',$data);
 		$this->load->view('footer');
 		
 	}
