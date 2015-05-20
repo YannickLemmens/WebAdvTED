@@ -10,13 +10,12 @@ if(isset($userid)): ?>
 	<div class="col-md-4">
 		<div class="showback">
 
-			<?php 
+			
 
 				
-
-			echo '<img  src="http://puu.sh/hMNpR/e542248c7f.jpg" alt="" width="170" height="170" class="img-rounded pull-left">'; ?>
-	
-
+			
+			<img  src="http://puu.sh/hMNpR/e542248c7f.jpg" id="profielfoto" alt="" width="40%" height="auto" class="img-rounded pull-left"/>
+		
 			<div style="margin-left:190px">
       <?php if(($userid == $this->session->userdata('user_id')) || ($this->session->userdata('role') == "admin")): ?>
 			<form method="post" action="<?php echo base_url() . "index.php/profile/User_Update/". $userid?>">
@@ -32,7 +31,11 @@ if(isset($userid)): ?>
   			<p>Profile Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
   		 	<button class="btn btn-default" type="submit">Update information</button>
   			</form>
-  			<?php
+			</br>
+			<form method="post" action="<?php echo base_url('index.php/upload')?>">
+			<button class="btn btn-default" type="submit">Change profile picture</button>
+  			</form>
+			<?php
   			} 
       else :
       foreach ($query->result() as $row)
