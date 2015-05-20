@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://84.195.150.43/WebAdvTED/CodeIgniter';
+$config['base_url'] = 'http://localhost/WebAdvTED/CodeIgniter';
 
 /*
 |--------------------------------------------------------------------------
