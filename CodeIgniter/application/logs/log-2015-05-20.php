@@ -42,3 +42,6 @@ ERROR - 2015-05-20 14:49:20 --> Severity: Error --> Call to a member function re
 ERROR - 2015-05-20 14:50:33 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\Upload.php 20
 ERROR - 2015-05-20 14:50:45 --> The path to the image is not correct.
 ERROR - 2015-05-20 14:50:45 --> Your server does not support the GD function required to process this type of image.
+ERROR - 2015-05-20 15:32:20 --> Severity: Notice --> Undefined variable: this2 C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 46
+ERROR - 2015-05-20 15:32:20 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 46
+ERROR - 2015-05-20 15:32:20 --> Severity: Error --> Call to a member function where() on a non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 46
