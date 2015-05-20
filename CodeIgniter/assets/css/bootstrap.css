@@ -2508,7 +2508,7 @@ select[multiple].input-sm {
 }
 .input-lg,
 .form-horizontal .form-group-lg .form-control {
-  height: 46px;
+  height: 250px;
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;

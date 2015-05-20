@@ -18,5 +18,18 @@ class Forum extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('forum_view',$data);
 		$this->load->view('footer');
+		
 	}
+	function nieuwtopic(){
+
+		
+		$data = array(
+		'title' => $this->input->post('topicTitle'),
+		'authorid' => $this->session->userdata('user_id'),
+		'categorie' => $this->input->post('category'),
+		'timestamp' => date()
+		);
+		$this->db->insert('topics', $data); 
 }
+	}
+

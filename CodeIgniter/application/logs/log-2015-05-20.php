@@ -42,3 +42,12 @@ ERROR - 2015-05-20 14:49:20 --> Severity: Error --> Call to a member function re
 ERROR - 2015-05-20 14:50:33 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\Upload.php 20
 ERROR - 2015-05-20 14:50:45 --> The path to the image is not correct.
 ERROR - 2015-05-20 14:50:45 --> Your server does not support the GD function required to process this type of image.
+ERROR - 2015-05-20 15:16:28 --> 404 Page Not Found: Newtopic/index
+ERROR - 2015-05-20 15:16:36 --> 404 Page Not Found: Forum/newtopi
+ERROR - 2015-05-20 15:16:38 --> Severity: Notice --> Undefined variable: userid C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 22
+ERROR - 2015-05-20 15:41:44 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 25
+ERROR - 2015-05-20 15:41:53 --> Query error: Field 'timestamp' doesn't have a default value - Invalid query: INSERT INTO `topics` (`title`, `authorid`, `categorie`) VALUES (NULL, '8', NULL)
+ERROR - 2015-05-20 15:43:35 --> Severity: Parsing Error --> syntax error, unexpected ''timestamp'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 30
+ERROR - 2015-05-20 15:43:49 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 36
+ERROR - 2015-05-20 15:44:43 --> Severity: Warning --> date() expects at least 1 parameter, 0 given C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 30
+ERROR - 2015-05-20 15:44:43 --> Query error: Incorrect integer value: '' for column 'categorie' at row 1 - Invalid query: INSERT INTO `topics` (`title`, `authorid`, `categorie`, `timestamp`) VALUES ('test', '8', '', 0)
