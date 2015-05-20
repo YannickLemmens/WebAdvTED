@@ -18,20 +18,22 @@ if(isset($userid)): ?>
 	
 
 			<div style="margin-left:190px">
+			<form method="post" action="<?php echo base_url() . "index.php/profile/User_Update/". $userid?>">
 			<?php 
 
 			foreach ($query->result() as $row)
 			{
-		 	echo "<p>Name: ". $row->username."</p>";
-		 	echo "<p>Email: ". $row->email."</p>";
-		 	echo "<p>Role: ".$row->role."</p>";
-		 	echo "<p>Attended events: ". $row->role."</p>";
-		 	echo "<p>Forum posts: ". $row->role."</p>";
-		 	echo "<p>Profile posts: ". $row->role."</p>";
-			}
-
-
-			?>
+		 ?>
+			<p>Name : <input type="text" class="form-control"  name="EditUsername" value="<?php echo $row->username?>"></input></p>
+			<p>Email : <input type="text" class="form-control" name="EditEmail"value="<?php echo $row->email?>"></input></p>
+			<p>Attended Events : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+			<p>Forum Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+			<p>Profile Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+		 	<button class="btn btn-default" type="submit">Update information</button>
+			
+			<?php
+			} ?>
+			</form>
 			</div>
 
 	
@@ -73,7 +75,7 @@ if(isset($userid)): ?>
         </div>
 </div>
 	<div class="col-md-8">
-  	
+  	<!--
     <ul class="timeline">
         <li>
           <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
@@ -138,7 +140,7 @@ if(isset($userid)): ?>
 
 	</div>
 </div>
-
+-->
 <?php else: ?>
 
 
@@ -202,7 +204,7 @@ if(isset($userid)): ?>
         </div>
 </div>
 	<div class="col-md-8">
-  	
+ <!-- 	
     <ul class="timeline">
         <li>
           <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
@@ -267,5 +269,5 @@ if(isset($userid)): ?>
 
 	</div>
 </div>
-
+-->
 <?php endif; } ?>
