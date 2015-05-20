@@ -29,7 +29,6 @@ class User_model extends CI_Model {
     $this->session->set_userdata($newdata);
     $this->load->view('home',$newdata);
   }
- 
   $this->load->view('login');
  }
  public function add_user()
@@ -43,6 +42,15 @@ class User_model extends CI_Model {
 			$this->load->view('register',$data);
 			$this->load->view('footer');
 		} else {
+				$this->db->where('email',$this->input->post('email_address'));
+				$query2 = $this->db->get('user');
+				if ($query2 -> num_rows() > 0)
+				{
+					$data = array('error' => "Emailadres is al in gebruik, gelieve een ander emailadres op te geven");
+					$this->load->view('header');
+					$this->load->view('register',$data);
+					$this->load->view('footer');
+				}
 			$data=array(
 				'username'=>$this->input->post('user_name'),
 				'email'=>$this->input->post('email_address'),

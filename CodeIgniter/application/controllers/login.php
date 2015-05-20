@@ -15,39 +15,35 @@ class Login extends CI_Controller {
 	
 
 	public function login(){
-  
 
   if ($this->session->userdata('logged_in') == TRUE) 
             redirect('index.php/home');
 
-
-  
-  $email=$this->input->post('email');
-  $password=md5($this->input->post('pass'));
-  $query = $this->user_exist($email);
+		  $email=$this->input->post('email');
+		  $password=md5($this->input->post('pass'));
+		  $query = $this->user_exist($email);
   
   if ($query->num_rows() == 1) {
   foreach ($query->result() as $row) {
 
-  if ($password != $row->password){
-  	$data ['login_fail'] = true;
- 		$this->load->helper('url');
-		$this->load->view('header');
-		$this->load->view('login',$data);
-		$this->load->view('footer');
+		if ($password != $row->password){
+			$data ['login_fail'] = true;
+			$this->load->helper('url');
+			$this->load->view('header');
+			$this->load->view('login',$data);
+			$this->load->view('footer');
     } else {
-    $data ['login_succes'] = true;
-    $data = array(
-    'user_id' => $row->id,
-     'user_email' => $row->email,
-     'user_name' => $row->username,
-	 'role' => $row->role,
-   'image' => $row->image,
-     'logged_in' => TRUE
-     );
-                         
-     $this->session->set_userdata($data);
-     redirect('index.php/home');
+			$data ['login_succes'] = true;
+			$data = array(
+			'user_id' => $row->id,
+			 'user_email' => $row->email,
+			 'user_name' => $row->username,
+			 'role' => $row->role,
+		   'image' => $row->image,
+			 'logged_in' => TRUE
+			 );                
+			 $this->session->set_userdata($data);
+			 redirect('index.php/home');
     	}
     }
                     }
