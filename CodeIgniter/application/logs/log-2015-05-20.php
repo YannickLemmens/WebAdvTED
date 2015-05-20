@@ -45,3 +45,6 @@ ERROR - 2015-05-20 14:50:45 --> Your server does not support the GD function req
 ERROR - 2015-05-20 15:32:20 --> Severity: Notice --> Undefined variable: this2 C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 46
 ERROR - 2015-05-20 15:32:20 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 46
 ERROR - 2015-05-20 15:32:20 --> Severity: Error --> Call to a member function where() on a non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 46
+ERROR - 2015-05-20 15:39:44 --> The image you are attempting to upload doesn't fit into the allowed dimensions.
+ERROR - 2015-05-20 15:40:00 --> 404 Page Not Found: Profile/User11
+ERROR - 2015-05-20 15:51:12 --> Severity: Parsing Error --> syntax error, unexpected ';', expecting ')' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\profile.php 64

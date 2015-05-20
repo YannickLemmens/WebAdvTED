@@ -60,7 +60,8 @@ class Profile extends CI_Controller {
 		$id= $this->uri->segment(3);
 		$data = array(
 		'username' => $this->input->post('EditUsername'),
-		'email' => $this->input->post('EditEmail')
+		'email' => $this->input->post('EditEmail'),
+		'role' => $this->input->post('EditRole')
 		);
 		$this->Members_model->update_user_id($id,$data);
 		redirect("index.php/profile/user/".$id);

@@ -31,9 +31,27 @@ if(isset($userid)): ?>
   		    ?>
   			<p>Name : <input type="text" class="form-control"  name="EditUsername" value="<?php echo $row->username?>"></input></p>
   			<p>Email : <input type="text" class="form-control" name="EditEmail"value="<?php echo $row->email?>"></input></p>
-  			<p>Attended Events : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
-  			<p>Forum Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
-  			<p>Profile Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+  			<p>Attended Events : 
+			<select  name="EditRole" class="form-control">
+				<option value="<?php echo $row->role ?>">Select role</option>
+				<option value="member">Member</option>
+				<option value="Admin">Admin</option>
+			</select>
+			</p>
+  			<p>Forum Posts : 
+			<select class="form-control">
+				<option value="<?php echo $row->role ?>">Select role</option>
+				<option value="member">Member</option>
+				<option value="Admin">Admin</option>
+			</select>
+			</p>
+  			<p>Profile Posts : 
+			<select class="form-control">
+				<option value="<?php echo $row->role ?>">Select role</option>
+				<option value="member">Member</option>
+				<option value="Admin">Admin</option>
+			</select>
+			</p>
   		 	<button class="btn btn-default" type="submit">Update information</button>
   			</form>
 			</br>

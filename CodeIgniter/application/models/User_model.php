@@ -29,7 +29,6 @@ class User_model extends CI_Model {
     $this->session->set_userdata($newdata);
     $this->load->view('home',$newdata);
   }
- 
   $this->load->view('login');
  }
  public function add_user()

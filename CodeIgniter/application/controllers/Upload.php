@@ -72,7 +72,7 @@
           $this->db->where('id', $this->session->userdata('user_id'));
           $this->db->update('user', $qdata); 
           $this->members_model->refreshsession();
-          redirect('/profile/', 'refresh');
+          redirect('/profile/User/'.$this->session->userdata('user_id'), 'refresh');
  
 
 
