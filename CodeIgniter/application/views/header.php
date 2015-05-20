@@ -128,7 +128,7 @@
 
   <body>
 
-  <section id="container" >
+  <div id="container" >
       <!-- **********************************************************************************************************************************************************
       TOP BAR CONTENT & NOTIFICATIONS
       *********************************************************************************************************************************************************** -->
@@ -136,22 +136,16 @@
       <header class="header black-bg">
         
             <!--logo start-->
-            <a href="<?php echo site_url('index.php/home')?>" class="logo"><img id="logo" src="<?php echo base_url('/assets/images/HeaderLogo.png'); ?>" alt="logo"/></a>
+            <a href="<?php echo site_url('index.php/home')?>" class="logo"><img  src="<?php echo base_url('/assets/images/HeaderLogo.png'); ?>" alt="logo"/></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
-                <!--  notification start -->
-                <ul class="nav top-menu">
-            
-                       
-
-                </ul>
            </div>
             <div class="top-menu">
-              <ul class="nav pull-right top-menu">
+              <div class="nav pull-right top-menu">
                   <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
       
               <button type="button" class="btn btn-theme04 dropdown-toggle" data-toggle="dropdown">
-               <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35" height="35" class="img-circle">
+               <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35" height="35" class="img-circle" alt="profile picture">
                <?php echo $this->session->userdata('user_email'); echo "(". $this->session->userdata('role'). ")";?> 
 
               <span class="caret"></span>
@@ -166,14 +160,16 @@
   
 
                  <?php }else{ ?>
-                <li><a class = "btn-theme04" href="<?php echo site_url('index.php/admin')?>">login</a></li>
+                 
+                <a class = "btn-theme04" href="<?php echo site_url('index.php/admin')?>">login</a>
+
                 <?php } ?>
             
-            </ul>
-          </li>
-        </ul>
+            </div>
+          
+     
  
-              </ul>
+             
             </div>
         </header>
       <!--header end-->
@@ -205,20 +201,22 @@
                           <i class="fa fa-university"></i>
                           <span>Forum</span>
                       </a>
-                  </li>                  
+                  </li>
+                  <?php if ($this->session->userdata('role') == null) :?>                  
                    <li class="mt">
                       <a href="<?php echo site_url('index.php/register')?>">
                           <i class="fa fa-child"></i>
                           <span>Join Us!</span>
                       </a>
                   </li>  
+                <?php endif; ?>
                    <li class="mt">
                       <a href="<?php echo site_url('index.php/events')?>">
                           <i class="fa fa-calendar"></i>
                           <span>Events</span>
                       </a>
                     </li>
-                    <?php if ($this->session->userdata('role') == "Admin") { ?>
+                    <?php if ($this->session->userdata('role') == "Admin") :?>
                  <li class="sub-menu">
 						<a href="<?php echo site_url('index.php/admin')?>">
                       <!--<a href="javascript:;" >-->
@@ -234,7 +232,7 @@
                       </ul>
                   </li>
 
-                    <?php } ?>
+                    <?php endif; ?>
                      
               </ul>
               <!-- sidebar menu end-->
@@ -242,9 +240,9 @@
       </aside>
       <!--sidebar end-->
 
-           <section id="main-content">
+           <div id="main-content">
 
-          <section class="wrapper site-min-height">
+          <div class="wrapper site-min-height">
             <ol class="breadcrumb">
               <li><a href="<?php echo site_url('index.php/home')?>">TEDxPXL</a></li>
               <li class="active"><?php 	
