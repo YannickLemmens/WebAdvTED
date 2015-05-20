@@ -9,3 +9,6 @@ ERROR - 2015-05-20 13:00:05 --> Severity: Parsing Error --> syntax error, unexpe
 ERROR - 2015-05-20 13:00:41 --> Severity: Parsing Error --> syntax error, unexpected 'endif' (T_ENDIF) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile.php 48
 ERROR - 2015-05-20 13:00:56 --> Severity: Notice --> Undefined variable: userid C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile.php 2
 ERROR - 2015-05-20 13:02:08 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile.php 159
+ERROR - 2015-05-20 13:35:24 --> You did not select a file to upload.
+ERROR - 2015-05-20 13:36:22 --> The image you are attempting to upload doesn't fit into the allowed dimensions.
+ERROR - 2015-05-20 13:38:37 --> Severity: Notice --> Undefined variable: userid C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile.php 2
