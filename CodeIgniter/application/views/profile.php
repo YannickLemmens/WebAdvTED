@@ -22,7 +22,7 @@ if(isset($userid)): ?>
 
       ?>
 			<div style="margin-left:190px">
-      <?php if(($userid == $this->session->userdata('user_id')) || ($this->session->userdata('role') == "admin")): ?>
+      <?php if(($userid == $this->session->userdata('user_id') or $this->session->userdata('role') == "Admin")): ?>
 			<form method="post" action="<?php echo base_url() . "index.php/profile/User_Update/". $userid?>">
 			<?php 
 

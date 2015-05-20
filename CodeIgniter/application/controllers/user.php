@@ -37,7 +37,7 @@ class User extends CI_Controller{
   $this->load->library('form_validation');
   // field name, error message, validation rules
   $this->form_validation->set_rules('user_name', 'User Name', 'trim|required|min_length[4]');
-  $this->form_validation->set_rules('email_address', 'Your Email', 'trim|required|valid_email');
+  $this->form_validation->set_rules('email_address', 'Enter Email', 'trim|required|valid_email');
   $this->form_validation->set_rules('password', 'Password', 'trim|required|min_length[4]|max_length[32]');
 
   if($this->form_validation->run() == FALSE)
@@ -47,7 +47,7 @@ class User extends CI_Controller{
   else
   {
    $this->User_model->add_user();
-   $this->thank();
+   
   }
  }
  public function logout()

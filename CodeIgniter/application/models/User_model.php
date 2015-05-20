@@ -34,12 +34,26 @@ class User_model extends CI_Model {
  }
  public function add_user()
  {
-  $data=array(
-    'username'=>$this->input->post('user_name'),
-    'email'=>$this->input->post('email_address'),
-    'password'=>md5($this->input->post('password'))
-	);
-  $this->db->insert('user',$data);
+	 $this->db->where('username',$this->input->post('user_name'));
+	 $query = $this->db->get('user');
+	 if ($query->num_rows() > 0)
+		{
+			$data = array ('error' => "Username is in gebruik, gelieve een andere username te kiezen.");
+			$this->load->view('header');
+			$this->load->view('register',$data);
+			$this->load->view('footer');
+		} else {
+			$data=array(
+				'username'=>$this->input->post('user_name'),
+				'email'=>$this->input->post('email_address'),
+				'password'=>md5($this->input->post('password'))
+				);
+			  $this->db->insert('user',$data);
+			  $this->load->view('header');
+			  $this->load->view('thank',$data);
+			  $this->load->view('footer');
+			
+		}
  }
 }
 ?>

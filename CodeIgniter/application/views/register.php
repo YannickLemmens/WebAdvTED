@@ -1,5 +1,7 @@
+
 <div class="container" style="margin-top:30px; margin-bottom:20px">
     <div class="row">
+		
          <?php echo validation_errors('<p class="error">'); ?>
         <?php echo form_open("index.php/user/registration"); ?>
             <div class="col-lg-6">
@@ -29,6 +31,14 @@
                 <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
             </div>
         <?php echo form_close(); ?>
-
+		
     </div>
 </div>
+<?php
+if(isset($error)){ ?>
+<div class="alert alert-danger" role="alert">
+			  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+			  <span class="sr-only">Error:</span>
+			  <?php echo $error ?>
+</div>
+<?php } ?>
