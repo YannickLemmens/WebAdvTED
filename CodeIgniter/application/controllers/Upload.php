@@ -64,8 +64,10 @@
            $data['uploadInfo'] = $finfo;
 
            $data['thumbnail_name'] = $finfo['raw_name']. '_thumb' .$finfo['file_ext']; 
+            $this->load->view('header');
 
            $this->load->view('profile',$data);
+           $this->load->view('footer');
 
            // You can view content of the $finfo with the code block below
 

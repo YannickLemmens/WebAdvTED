@@ -17,3 +17,5 @@ ERROR - 2015-05-20 13:28:15 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2015-05-20 13:44:57 --> Severity: Compile Error --> Cannot use isset() on the result of a function call (you can use "null !== func()" instead) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 250
 ERROR - 2015-05-20 13:54:14 --> Severity: Parsing Error --> syntax error, unexpected '&&' (T_BOOLEAN_AND) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 261
 ERROR - 2015-05-20 13:55:05 --> Severity: Notice --> Undefined variable: help C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 251
+ERROR - 2015-05-20 14:10:16 --> Severity: Notice --> Undefined variable: userid C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile.php 2
+ERROR - 2015-05-20 14:11:31 --> You did not select a file to upload.
