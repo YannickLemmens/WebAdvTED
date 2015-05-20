@@ -18,22 +18,36 @@ if(isset($userid)): ?>
 	
 
 			<div style="margin-left:190px">
+      <?php if(($userid == $this->session->userdata('user_id')) || ($this->session->userdata('role') == "admin")): ?>
 			<form method="post" action="<?php echo base_url() . "index.php/profile/User_Update/". $userid?>">
 			<?php 
 
-			foreach ($query->result() as $row)
-			{
-		 ?>
-			<p>Name : <input type="text" class="form-control"  name="EditUsername" value="<?php echo $row->username?>"></input></p>
-			<p>Email : <input type="text" class="form-control" name="EditEmail"value="<?php echo $row->email?>"></input></p>
-			<p>Attended Events : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
-			<p>Forum Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
-			<p>Profile Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
-		 	<button class="btn btn-default" type="submit">Update information</button>
+  			foreach ($query->result() as $row)
+  			{
+  		    ?>
+  			<p>Name : <input type="text" class="form-control"  name="EditUsername" value="<?php echo $row->username?>"></input></p>
+  			<p>Email : <input type="text" class="form-control" name="EditEmail"value="<?php echo $row->email?>"></input></p>
+  			<p>Attended Events : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+  			<p>Forum Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+  			<p>Profile Posts : <input type="text" class="form-control" value="<?php echo $row->role?>"></input></p>
+  		 	<button class="btn btn-default" type="submit">Update information</button>
+  			</form>
+  			<?php
+  			} 
+      else :
+      foreach ($query->result() as $row)
+      {
+        ?>
+      <p>Name : <?php echo $row->username?></p>
+      <p>Email : <?php echo $row->email?></p>
+      <p>Attended Events : <?php echo $row->role?></p>
+      <p>Forum Posts :<?php echo $row->role?></p>
+      <p>Profile Posts : <?php echo $row->role?></p>
+ 
+      </form>
+      <?php  } endif; ?>
+
 			
-			<?php
-			} ?>
-			</form>
 			</div>
 
 	
