@@ -86,6 +86,27 @@ class events extends CI_Controller {
 		$this->load->view('events_volledig', $data);
 		$this->load->view('footer');
 	}
+	function set_going() {
+		$eventid= $this->uri->segment(3);
+		$data = array(
+		   'userid' => $this->session->userdata('user_id') ,
+		   'eventid' => $eventid
+		   
+		);
+
+		$this->db->insert('event_attenders', $data); 
+		redirect("events/show_event_volledig/".$eventid);
+	}
+	function set_not_going() {
+		$eventid= $this->uri->segment(3);
+
+		$this->db->where('userid', $this->session->userdata('user_id') );
+		$this->db->where('eventid', $eventid);
+		$this->db->delete('event_attenders'); 
+		redirect("events/show_event_volledig/".$eventid);
+	}
+
+
 	
 	
 	
