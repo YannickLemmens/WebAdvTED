@@ -14,3 +14,6 @@ ERROR - 2015-05-20 13:26:09 --> Severity: Notice --> Undefined variable: query C
 ERROR - 2015-05-20 13:26:09 --> Severity: Error --> Call to a member function num_rows() on null C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 34
 ERROR - 2015-05-20 13:27:52 --> Severity: Notice --> Undefined property: stdClass::$id C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 33
 ERROR - 2015-05-20 13:28:15 --> Severity: Notice --> Undefined property: stdClass::$id C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\events_volledig.php 33
+ERROR - 2015-05-20 13:44:57 --> Severity: Compile Error --> Cannot use isset() on the result of a function call (you can use "null !== func()" instead) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 250
+ERROR - 2015-05-20 13:54:14 --> Severity: Parsing Error --> syntax error, unexpected '&&' (T_BOOLEAN_AND) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 261
+ERROR - 2015-05-20 13:55:05 --> Severity: Notice --> Undefined variable: help C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 251

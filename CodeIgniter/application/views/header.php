@@ -245,12 +245,39 @@
           <div class="wrapper site-min-height">
             <ol class="breadcrumb">
               <li><a href="<?php echo site_url('index.php/home')?>">TEDxPXL</a></li>
-              <li class="active"><?php 	
-			   $request_path = $_SERVER['REQUEST_URI'];
-				$path = explode("/", $request_path); // splitting the path
-				$last = end($path);
-				echo $last;
-			  ?></li>
+
+              <?php
+              $help = false;
+
+              if($this->uri->segment(3) != "")
+              {
+                
+                $link =site_url($this->uri->segment(1));
+                echo '<li><a href="'. $link.'">' . $this->uri->segment(1) . '</a> </li>';
+                $link = $link . $this->uri->segment(2);
+                echo '<li><a href="'.$link.'">' . $this->uri->segment(2) . '</a> </li>';
+                echo '<li class="active">' . $this->uri->segment(3) . ' </li>';
+                $help = true;
+
+              }
+              else if(($this->uri->segment(2) != "") && ($help = false))
+              {
+                
+                $link =site_url($this->uri->segment(1));
+                echo '<li><a href="'.$link .'">' . $this->uri->segment(1) . '</a> </li>';
+                echo '<li class="active">' . $this->uri->segment(2) . '</li>';
+                $help = true;
+        
+
+              }
+              else
+              {
+echo '<li class="active">' . $this->uri->segment(1) . '</li>';
+              }
+
+ 
+              ?>
+
               
             </ol>
 
