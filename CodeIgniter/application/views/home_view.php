@@ -57,7 +57,12 @@ foreach ($query->result() as $row)
 						?>
                       <div class="desc">
                       	<div class="thumb">
-                      		<img class="img-circle" src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35px" height="35px" align="">
+                              <?php $image = $row ->image ;
+              
+      
+                             echo ' <img class="img-circle" src="'.site_url("assets/uploads/$image") .'" width="35px" height="35px" align="">';
+                              ?>
+                      		
                       	</div>
                       	<div class="details">
 

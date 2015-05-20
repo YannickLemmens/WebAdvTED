@@ -15,6 +15,7 @@
         $this->load->helper('form');
 
         $this->load->helper('url');
+        $this->load->model('members_model');
 
     }  
 
@@ -33,7 +34,7 @@
 
     {
 
-       $config['upload_path']   =   "uploads/";
+       $config['upload_path']   =   "assets/uploads/";
 
        $config['allowed_types'] =   "gif|jpg|jpeg|png"; 
 
@@ -59,23 +60,22 @@
 
            $finfo=$this->upload->data();
 
-           $this->_createThumbnail($finfo['file_name']);
 
            $data['uploadInfo'] = $finfo;
 
            $data['thumbnail_name'] = $finfo['raw_name']. '_thumb' .$finfo['file_ext']; 
-            $this->load->view('header');
+            $qdata = array(
+                 'image' => $finfo['raw_name'] .$finfo['file_ext']
+          
+              );
 
-           $this->load->view('profile',$data);
-           $this->load->view('footer');
+          $this->db->where('id', $this->session->userdata('user_id'));
+          $this->db->update('user', $qdata); 
+          $this->members_model->refreshsession();
+          redirect('/profile/', 'refresh');
+ 
 
-           // You can view content of the $finfo with the code block below
 
-           /*echo '<pre>';
-
-           print_r($finfo);
-
-           echo '</pre>';*/
 
        }
 

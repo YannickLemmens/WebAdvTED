@@ -143,9 +143,14 @@
             <div class="top-menu">
               <div class="nav pull-right top-menu">
                   <?php if ($this->session->userdata('logged_in') == TRUE) { ?>
-      
+              
               <button type="button" class="btn btn-theme04 dropdown-toggle" data-toggle="dropdown">
-               <img src="http://puu.sh/hMNpR/e542248c7f.jpg" width="35" height="35" class="img-circle" alt="profile picture">
+              <?php $image = $this->session->userdata("image") ;
+              
+                echo '<img src="'.site_url("assets/uploads/$image") .'" width="35" height="35" class="img-circle" alt="profile picture">';
+
+              ?>
+               
                <?php echo $this->session->userdata('user_email'); echo "(". $this->session->userdata('role'). ")";?> 
 
               <span class="caret"></span>

@@ -15,8 +15,12 @@ if(isset($userid)): ?>
 
 				
 			
-			<img  src="http://puu.sh/hMNpR/e542248c7f.jpg" id="profielfoto" alt="" width="40%" height="auto" class="img-rounded pull-left"/>
-		
+		  <?php $image = $this->session->userdata("image") ;
+              
+      
+       echo '<img  src="'.site_url("assets/uploads/$image") .'" id="profielfoto" alt="" width="40%" height="auto" class="img-rounded pull-left"/>';
+
+      ?>
 			<div style="margin-left:190px">
       <?php if(($userid == $this->session->userdata('user_id')) || ($this->session->userdata('role') == "admin")): ?>
 			<form method="post" action="<?php echo base_url() . "index.php/profile/User_Update/". $userid?>">
