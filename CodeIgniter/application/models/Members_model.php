@@ -14,6 +14,10 @@ class Members_model extends CI_Model {
 		return $this->db->get('user')->result();
 	}
 	
+	public function get_admins() {
+		return $this->db->get_where('user',array('role' => 'admin')) ->result();
+	}
+	
 	public function get_user_info($id){
         $this->db->where('id' , $id);
         $q = $this->db->get('user');
@@ -56,7 +60,7 @@ class Members_model extends CI_Model {
 	{
 		$this->db->where('id',$id);
 		$this->db->delete('user');
-		redirect("index.php/leden");
+		redirect("admin/getallusers");
 	}
 	
 	public function edit_user($id,$data)
