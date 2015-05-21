@@ -20,16 +20,32 @@ class Forum extends CI_Controller {
 		$this->load->view('footer');
 		
 	}
+	function thread(){
+		$data['thread'] = true ;
+		$this->load->view('header');
+		$this->load->view('forum_view',$data);
+		$this->load->view('footer');
+
+	}
 	function nieuwtopic(){
 
-		
+		$datum =  new DateTime('NOW');
 		$data = array(
 		'title' => $this->input->post('topicTitle'),
 		'authorid' => $this->session->userdata('user_id'),
 		'categorie' => $this->input->post('category'),
-		'timestamp' => date()
+		'timestamp' => time()
 		);
 		$this->db->insert('topics', $data); 
+		$id = $this->db->insert_id();
+
+		$data2 = array(
+		'thread' => $id,
+		'posterID' => $this->session->userdata('user_id'),
+		'message' => $this->input->post('text'),
+		'timestamp' => time()
+		);
+		$this->db->insert('posts', $data2); 
 }
 	}
 
