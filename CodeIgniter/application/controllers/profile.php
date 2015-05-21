@@ -53,7 +53,7 @@ class Profile extends CI_Controller {
 		'role' =>$this->input->post('drole')
 		);
 		$this->Members_model->update_user_id($id,$data);
-		redirect("index.php/admin/getAllUsers");
+		redirect("admin/getAllUsers");
 	}
 	
 	function User_Update() {
@@ -64,7 +64,7 @@ class Profile extends CI_Controller {
 		'role' => $this->input->post('EditRole')
 		);
 		$this->Members_model->update_user_id($id,$data);
-		redirect("index.php/profile/user/".$id);
+		redirect("profile/user/".$id);
 	}
 	
 	function addUser() {
@@ -75,7 +75,7 @@ class Profile extends CI_Controller {
 		'role'=>$this->input->post('newUserRole')
 		);
 		$this->Members_model->addUser($data);
-		redirect("index.php/admin/getAllUsers");
+		redirect("admin/getAllUsers");
 	}
 
 }

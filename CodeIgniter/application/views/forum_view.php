@@ -13,14 +13,14 @@ if(isset($catid))
         echo '</div></a>';
 
     }
-    echo '<a href="'.base_url("index.php/forum/newtopic/$catid").'" <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> new topic</button></a>';
+    echo '<a href="'.base_url("forum/newtopic/$catid").'" <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> new topic</button></a>';
 
 
 }
 else if(isset($newtopic))
 {
     ?>
-            <form method="post" action="<?php echo base_url() . "index.php/forum/nieuwtopic/"?>">
+            <form method="post" action="<?php echo base_url() . "forum/nieuwtopic/"?>">
 
             <p>Topic title <input type="text" class="form-control"  name="topicTitle" value=""></input></p>
             <p>Post <input  type="text" class="form-control input-lg" name="Post"value=""></input></p>

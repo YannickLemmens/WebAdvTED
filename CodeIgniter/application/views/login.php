@@ -7,7 +7,7 @@
 <?php endif; ?>
 
 <body>
- <?php echo form_open("index.php/login/login"); ?>
+ <?php echo form_open("login/login"); ?>
 	<div class="container">
      <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -21,7 +21,7 @@
 	
                 </form>
             </div>
-            <a href="<?php echo site_url('index.php/register')?>" class="text-center new-account">Create an account</a>  or login with Facebook: 
+            <a href="<?php echo site_url('register')?>" class="text-center new-account">Create an account</a>  or login with Facebook: 
 			
 			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 			</fb:login-button>

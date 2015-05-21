@@ -60,7 +60,7 @@ class User extends CI_Controller{
   );
   $this->session->unset_userdata($newdata );
   $this->session->sess_destroy();
-  redirect('index.php/home');
+  redirect('home');
  }
 }
 ?>

@@ -12,7 +12,7 @@
 <h3>Edit Detail & Click GO! Button</h3>
 <?php foreach ($eventsUpdate as $event): ?>
 
-<form method="post" action="<?php echo base_url() . "index.php/events/update_event_id"?>">
+<form method="post" action="<?php echo base_url() . "events/update_event_id"?>">
 
                              
   <p><i class="fa fa-bullhorn"></i> ID</p>

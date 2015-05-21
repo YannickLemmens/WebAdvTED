@@ -21,9 +21,9 @@
 			<td><?php echo $row->email?></td>
 			<td><?php echo $row->role?></td>
 			<td>
-	            <a href="<?php echo site_url("index.php/profile/show_user_id/".$row->id); ?>">
+	            <a href="<?php echo site_url("profile/show_user_id/".$row->id); ?>">
 	            <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button></a>
-	            <a href="<?php echo site_url("index.php/profile/delete_user_id/".$row->id);?>">
+	            <a href="<?php echo site_url("profile/delete_user_id/".$row->id);?>">
 	            <button class="btn btn-success btn-xs"><i class="fa fa-trash-o"></i></button>
 	            </a>
 	        </td>                         
@@ -39,6 +39,6 @@
 </tbody>
 </table>
 
-<a href="<?php echo site_url('index.php/profile/addAUser');?>"><button type="submit">Add User</button></a>
+<a href="<?php echo site_url('profile/addAUser');?>"><button type="submit">Add User</button></a>
 
                               

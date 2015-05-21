@@ -16,7 +16,7 @@
 <div class="form_title">Sign Up</div>
 <div class="form_sub_title">It's free and anyone can join</div>
  <?php echo validation_errors('<p class="error">'); ?>
- <?php echo form_open("index.php/user/registration"); ?>
+ <?php echo form_open("user/registration"); ?>
   <p>
   <label for="user_name">User Name:</label>
   <input type="text" id="user_name" name="user_name" value="<?php echo set_value('user_name'); ?>" />

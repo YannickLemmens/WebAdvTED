@@ -3,7 +3,7 @@
 <h3>Edit Detail & Click Update Button</h3>
 <?php foreach ($userUpdate as $user): ?>
 <table class="table table-bordered" id="data">
-<form method="post" action="<?php echo base_url() . "index.php/profile/update_user_id"?>">
+<form method="post" action="<?php echo base_url() . "profile/update_user_id"?>">
  <thead>
                               <tr>
                                   <th><i class="fa fa-bullhorn"></i> ID</th>

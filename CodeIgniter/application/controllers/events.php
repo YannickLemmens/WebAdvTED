@@ -62,7 +62,7 @@ class events extends CI_Controller {
 		'ycoord'=> $this->input->post('event_ycoord'),
 		);
 		$this->event_model->update_event_id($id,$data);
-		redirect("index.php/admin/getAllEvents");
+		redirect("admin/getAllEvents");
 	}
 	
 	function add_Event() {
@@ -75,7 +75,7 @@ class events extends CI_Controller {
 		'ycoord'=> $this->input->post('New_event_ycoord'),
 		);
 		$this->event_model->addEvent($data);
-		redirect("index.php/admin/getAllEvents");
+		redirect("admin/getAllEvents");
 	}
 	
 	function show_event_volledig() {

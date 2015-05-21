@@ -3,7 +3,7 @@
     <div class="row">
 		
          <?php echo validation_errors('<p class="error">'); ?>
-        <?php echo form_open("index.php/user/registration"); ?>
+        <?php echo form_open("user/registration"); ?>
             <div class="col-lg-6">
                 <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
                 <div class="form-group">

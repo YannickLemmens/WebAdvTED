@@ -23,7 +23,7 @@ if(isset($userid)): ?>
       ?>
 			<div style="margin-left:190px">
       <?php if(($userid == $this->session->userdata('user_id') or $this->session->userdata('role') == "Admin")): ?>
-			<form method="post" action="<?php echo base_url() . "index.php/profile/User_Update/". $userid?>">
+			<form method="post" action="<?php echo base_url() . "profile/User_Update/". $userid?>">
 			<?php 
 
   			foreach ($query->result() as $row)
@@ -55,7 +55,7 @@ if(isset($userid)): ?>
   		 	<button class="btn btn-default" type="submit">Update information</button>
   			</form>
 			</br>
-			<form method="post" action="<?php echo base_url('index.php/upload')?>">
+			<form method="post" action="<?php echo base_url('upload')?>">
 			<button class="btn btn-default" type="submit">Change profile picture</button>
   			</form>
 			<?php

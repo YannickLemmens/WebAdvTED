@@ -136,7 +136,7 @@
       <header class="header black-bg">
         
             <!--logo start-->
-            <a href="<?php echo site_url('index.php/home')?>" class="logo"><img  src="<?php echo base_url('/assets/images/HeaderLogo.png'); ?>" alt="logo"/></a>
+            <a href="<?php echo site_url('home')?>" class="logo"><img  src="<?php echo base_url('/assets/images/HeaderLogo.png'); ?>" alt="logo"/></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
            </div>
@@ -156,7 +156,7 @@
               <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="<?php echo site_url('index.php/profile/User/' .$this->session->userdata('user_id'))?>">Profile</a></li>
+                <li><a href="<?php echo site_url('profile/User/' .$this->session->userdata('user_id'))?>">Profile</a></li>
                 <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
                 <li><a href="user/logout">logout</a></li>
@@ -166,7 +166,7 @@
 
                  <?php }else{ ?>
                  
-                <a class = "btn-theme04" href="<?php echo site_url('index.php/admin')?>">login</a>
+                <a class = "btn-theme04" href="<?php echo site_url('admin')?>">login</a>
 
                 <?php } ?>
             
@@ -190,40 +190,41 @@
               
               
                   <li class="mt">
-                      <a href="<?php echo site_url('index.php/home')?>">
+                      <a href="<?php echo site_url('home')?>">
                           <i class="fa fa-home"></i>
                           <span>Home</span>
                       </a>
                   </li>
                    <li class="mt">
-                      <a href="<?php echo site_url('index.php/about')?>">
+                      <a href="<?php echo site_url('about')?>">
                           <i class="fa fa-info"></i>
                           <span>About Us</span>
                       </a>
                   </li>  
                    <li class="mt">
-                      <a href="<?php echo site_url('index.php/forum')?>">
+                      <a href="<?php echo site_url('forum')?>">
                           <i class="fa fa-university"></i>
                           <span>Forum</span>
                       </a>
                   </li>
+				  
                   <?php if ($this->session->userdata('role') == null) :?>                  
                    <li class="mt">
-                      <a href="<?php echo site_url('index.php/register')?>">
+                      <a href="<?php echo site_url('register')?>">
                           <i class="fa fa-child"></i>
                           <span>Join Us!</span>
                       </a>
                   </li>  
                 <?php endif; ?>
                    <li class="mt">
-                      <a href="<?php echo site_url('index.php/events')?>">
+                      <a href="<?php echo site_url('events')?>">
                           <i class="fa fa-calendar"></i>
                           <span>Events</span>
                       </a>
                     </li>
                     <?php if ($this->session->userdata('role') == "Admin") :?>
                  <li class="sub-menu">
-						<a href="<?php echo site_url('index.php/admin')?>">
+						<a href="<?php echo site_url('admin')?>">
                       <!--<a href="javascript:;" >-->
                           <i class="fa fa-tachometer"></i>
 						  Admin
@@ -231,14 +232,20 @@
 						  
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo site_url('index.php/admin')?>">Dashboard</a></li>
-                          <li><a  href="<?php echo site_url('index.php/admin/getAllUsers')?>">Users</a></li>
+                          <li><a  href="<?php echo site_url('admin')?>">Dashboard</a></li>
+                          <li><a  href="<?php echo site_url('admin/getAllUsers')?>">Users</a></li>
                           
                       </ul>
                   </li>
-
                     <?php endif; ?>
-                     
+                     <li class="mt">
+						<a>
+						<i class="fa fa-search"></i>
+						<span>
+						<input type="text" class="form-control" style="width:125px"></input>
+						</span>
+						</a>
+				  </li>
               </ul>
               <!-- sidebar menu end-->
           </div>
@@ -249,7 +256,7 @@
 
           <div class="wrapper site-min-height">
             <ol class="breadcrumb">
-              <li><a href="<?php echo site_url('index.php/home')?>">TEDxPXL</a></li>
+              <li><a href="<?php echo site_url('home')?>">TEDxPXL</a></li>
 
               <?php
               $help = false;

@@ -12,7 +12,7 @@
 </head>
 <h3>Add User</h3>
 
-<form method="post" action="<?php echo base_url() . "index.php/profile/addUser"?>">
+<form method="post" action="<?php echo base_url() . "profile/addUser"?>">
   <p><i class="fa fa-question-circle"></i> Username</p>
   <input type="text" name="newUserName" class="form-control">
   <p><i class="fa fa-bookmark"></i> Emailadres</p>

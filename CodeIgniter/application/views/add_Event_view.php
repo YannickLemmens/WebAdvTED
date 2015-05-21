@@ -22,7 +22,7 @@
 </head>
 <h3>Add Event</h3>
 
-<form method="post" action="<?php echo base_url() . "index.php/events/add_Event"?>">
+<form method="post" action="<?php echo base_url() . "events/add_Event"?>">
 
                              
 

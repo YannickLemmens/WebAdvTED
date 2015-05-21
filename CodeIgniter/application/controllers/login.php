@@ -17,7 +17,7 @@ class Login extends CI_Controller {
 	public function login(){
 
   if ($this->session->userdata('logged_in') == TRUE) 
-            redirect('index.php/home');
+            redirect('home');
 
 		  $email=$this->input->post('email');
 		  $password=md5($this->input->post('pass'));
@@ -43,7 +43,7 @@ class Login extends CI_Controller {
 			 'logged_in' => TRUE
 			 );                
 			 $this->session->set_userdata($data);
-			 redirect('index.php/home');
+			 redirect('home');
     	}
     }
                     }
