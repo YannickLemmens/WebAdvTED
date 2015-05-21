@@ -34,3 +34,18 @@ ERROR - 2015-05-21 14:31:33 --> Severity: Parsing Error --> syntax error, unexpe
 ERROR - 2015-05-21 14:37:23 --> Query error: Incorrect datetime value: '1432211843' for column 'timestamp' at row 1 - Invalid query: INSERT INTO `posts` (`thread`, `posterID`, `message`, `timestamp`) VALUES (4, '8', 'test2', 1432211843)
 ERROR - 2015-05-21 14:38:06 --> 404 Page Not Found: Forum/forum
 ERROR - 2015-05-21 14:51:46 --> Severity: Parsing Error --> syntax error, unexpected 'echo' (T_ECHO) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 42
+ERROR - 2015-05-21 15:06:24 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\profile.php 185
+ERROR - 2015-05-21 15:15:15 --> Severity: Error --> Call to undefined method Members_model::getName() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:15:43 --> Severity: Notice --> Undefined property: CI_Loader::$Members_model C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:15:43 --> Severity: Error --> Call to a member function getName() on null C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:16:19 --> Severity: Parsing Error --> syntax error, unexpected ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 36
+ERROR - 2015-05-21 15:16:39 --> Severity: Notice --> Undefined property: CI_Loader::$User_model C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:16:39 --> Severity: Error --> Call to a member function getName() on null C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:17:28 --> Severity: Notice --> Undefined property: CI_Loader::$User_model C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:17:28 --> Severity: Error --> Call to a member function getName() on null C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 49
+ERROR - 2015-05-21 15:17:41 --> Severity: Notice --> Undefined variable: username C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-21 15:17:49 --> Severity: Notice --> Undefined variable: username C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\models\User_model.php 40
+ERROR - 2015-05-21 15:21:13 --> Severity: Error --> Call to undefined method User_model::getImage() C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 51
+ERROR - 2015-05-21 15:41:44 --> 404 Page Not Found: Forum/newpost
+ERROR - 2015-05-21 15:43:00 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 104
+ERROR - 2015-05-21 15:49:55 --> Severity: Parsing Error --> syntax error, unexpected end of file, expecting function (T_FUNCTION) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 70

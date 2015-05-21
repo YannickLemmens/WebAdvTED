@@ -31,6 +31,22 @@ class User_model extends CI_Model {
   }
   $this->load->view('login');
  }
+ public function getName($id){
+ 	$username = null;
+ 	$query = $this->db->get_where('user', array('id' => $id), 1);
+    foreach ($query->result() as $row)
+    	$username = $row->username;
+    
+ 	return $username;
+ }
+ public function getimage($id){
+ 	$image = null;
+ 	$query = $this->db->get_where('user', array('id' => $id), 1);
+    foreach ($query->result() as $row)
+    	$image = $row->image;
+    
+ 	return $image;
+ }
  public function add_user()
  {
 	 $this->db->where('username',$this->input->post('user_name'));

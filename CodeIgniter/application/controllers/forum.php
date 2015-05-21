@@ -1,5 +1,9 @@
 <?php
 class Forum extends CI_Controller {
+	function __construct(){
+		parent::__construct();
+		$this->load->model('User_model');
+	}
 	public function index () {
 		$this->load->helper('url');
 		$this->load->view('header');
@@ -46,6 +50,20 @@ class Forum extends CI_Controller {
 		'timestamp' => time()
 		);
 		$this->db->insert('posts', $data2); 
-}
+		redirect('/forum/thread/'.$id);
 	}
+	function newpost()
+	{
+		$data2 = array(
+		'thread' => $this->input->post('topic'),
+		'posterID' => $this->session->userdata('user_id'),
+		'message' => $this->input->post('text'),
+		'timestamp' => time()
+		);
+		$this->db->insert('posts', $data2); 
+		redirect('/forum/thread/'.$this->input->post('topic'));
+
+
+	}
+}
 
