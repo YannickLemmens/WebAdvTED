@@ -20,7 +20,11 @@
 		
 }
 
-h2, p , img{
+h2, p {
+	margin : 5px;
+}
+
+.image {
 	margin : 5px;
 }
   
@@ -32,15 +36,17 @@ h2, p , img{
  <?php foreach($admins as $rows) 
  {?>
  <div id="team" class="panel-default">
- <?php $image = $rows ->image ;
+	<a href="<?php echo site_url('profile/user')."/".$rows->id?>">
+			 <?php $image = $rows ->image ;
 
 
-        echo ' <img class="img-circle" src="'.site_url("assets/uploads/$image") .'" width="70px" height="70px" align="">';
-        ?>
-<h2><?php echo $rows->username;?></h2>
-<p>Email : <?php echo $rows->email;?></p>
-<p>Rol : <?php echo $rows->role;?></p>
-</br>
+					echo ' <img class="image" src="'.site_url("assets/uploads/$image") .'" width="70px" height="70px" align="">';
+					?>
+			<h2><?php echo $rows->username;?></h2>
+			<p>Email : <?php echo $rows->email;?></p>
+			<p>Rol : <?php echo $rows->role;?></p>
+			</br>
+	</a>
 </div>
 <?php
  }
