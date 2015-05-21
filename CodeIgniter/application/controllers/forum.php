@@ -3,6 +3,7 @@ class Forum extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model('User_model');
+		$this->load->model("Members_model");
 	}
 	public function index () {
 		$this->load->helper('url');

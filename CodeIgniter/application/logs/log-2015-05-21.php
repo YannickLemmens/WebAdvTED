@@ -49,3 +49,7 @@ ERROR - 2015-05-21 15:21:13 --> Severity: Error --> Call to undefined method Use
 ERROR - 2015-05-21 15:41:44 --> 404 Page Not Found: Forum/newpost
 ERROR - 2015-05-21 15:43:00 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 104
 ERROR - 2015-05-21 15:49:55 --> Severity: Parsing Error --> syntax error, unexpected end of file, expecting function (T_FUNCTION) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 70
+ERROR - 2015-05-21 17:09:10 --> Severity: Notice --> Undefined property: CI_Loader::$Members_model C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 4
+ERROR - 2015-05-21 17:09:10 --> Severity: Error --> Call to a member function refreshsession() on null C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\header.php 4
+ERROR - 2015-05-21 17:39:24 --> Query error: Table 'mc_pxl.threads' doesn't exist - Invalid query: SELECT * FROM threads
+ERROR - 2015-05-21 17:44:26 --> Query error: Table 'mc_pxl.threads' doesn't exist - Invalid query: SELECT * FROM threads

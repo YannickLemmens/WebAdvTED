@@ -33,28 +33,28 @@ class Members_model extends CI_Model {
    public function refreshsession(){
   
 
-       $this->db->where('id' , $this->session->userdata('user_id'));
-       $query = $this->db->get('user');
-  if ($query->num_rows() == 1) {
-  foreach ($query->result() as $row) {
+	$this->db->where('id' , $this->session->userdata('user_id'));
+	$query = $this->db->get('user');
+	if ($query->num_rows() == 1) {
+		foreach ($query->result() as $row) {
 
-    $data ['login_succes'] = true;
-    $data = array(
-    'user_id' => $row->id,
-     'user_email' => $row->email,
-     'user_name' => $row->username,
-	 'role' => $row->role,
-   'image' => $row->image,
-     'logged_in' => TRUE
-     );
-                         
-     $this->session->set_userdata($data);
+			$data ['login_succes'] = true;
+			$data = array(
+			'user_id' => $row->id,
+			'user_email' => $row->email,
+			'user_name' => $row->username,
+			'role' => $row->role,
+			'image' => $row->image,
+			'logged_in' => TRUE
+			);
+			 
+			$this->session->set_userdata($data);
 
-    	
-    }
-                    }
-                
- }
+
+		}
+	}
+
+}
 	
 	public function delete_user($id) 
 	{

@@ -1,3 +1,8 @@
+<?php
+if ($this->session->userdata('logged_in') == TRUE) 
+  $this->Members_model->refreshsession();
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">

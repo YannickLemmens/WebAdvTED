@@ -36,6 +36,7 @@ foreach ($eventVolledig  as $row)
   if ($query->num_rows() > 0):
 
     ?>
+  <div class="showback">
   <form method="post" action="<?php echo base_url() . "events/set_not_goinga/". $row -> ID?>">
     <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> Going</button>
   </form>
@@ -43,6 +44,7 @@ foreach ($eventVolledig  as $row)
   <form method="post" action="<?php echo base_url() . "events/set_going/". $row -> ID?>">
     <button type="submit" class="btn btn-danger"><i class="fa fa-times"></i> Not going</button>
   </form>
+  </div>
   <?php	
   endif;
 }

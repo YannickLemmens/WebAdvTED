@@ -1,9 +1,12 @@
 <?php
 class Login extends CI_Controller {
 	
-	    public function __construct() {
-        parent::__construct();
-    }
+	public function __construct()
+ 	{
+		parent::__construct();
+		$this->load->model('Members_model');
+	
+ 	}
 	public function index () {
 		$this->load->helper(array('form'));
 		$this->load->helper('url');

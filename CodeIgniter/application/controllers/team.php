@@ -1,5 +1,11 @@
 <?php
 class Team extends CI_Controller {
+		public function __construct()
+ 	{
+		parent::__construct();
+		$this->load->model('Members_model');
+	
+ 	}
 	public function index () {
 		$this->load->model('Members_model');
 		$data['admins'] = $this->Members_model->get_admins();
