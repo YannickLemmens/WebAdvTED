@@ -157,7 +157,6 @@
               </button>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="<?php echo site_url('profile/User/' .$this->session->userdata('user_id'))?>">Profile</a></li>
-                <li><a href="#">Settings</a></li>
                 <li class="divider"></li>
                 <li><a href="user/logout">logout</a></li>
               </ul>
