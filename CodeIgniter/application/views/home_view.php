@@ -10,38 +10,29 @@
   <h3>Upcoming events</h3>
 
   <!-- First Action -->
+    <?php
+
+      $query = $this->db->query("SELECT * FROM `events` WHERE `date` >= CURDATE() ORDER BY `date` LIMIT 7");
+
+      foreach ($query->result() as $row)
+      {
+     
+      
+    ?>
   <div class="desc">
     <div class="thumb">
       <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
     </div>
     <div class="details">
-      <p><muted>in x days</muted><br/>
-        event at location x <a href="#">read more</a> <br/>
+      <p><muted><?php echo $row->title;?></muted><br/>
+        Location:<?php echo $row->location;?> <a href="<?php echo site_url('events/show_event_volledig/'.$row->ID)?>">read more</a> <br/>
+        
       </p>
     </div>
   </div>
-  <!-- First Action -->
-  <div class="desc">
-    <div class="thumb">
-      <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
-    </div>
-    <div class="details">
-      <p><muted>in x days</muted><br/>
-        event at location x <a href="#">read more</a> <br/>
-      </p>
-    </div>
-  </div>
-  <!-- First Action -->
-  <div class="desc">
-    <div class="thumb">
-      <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
-    </div>
-    <div class="details">
-      <p><muted>in x days</muted><br/>
-        event at location x <a href="#">read more</a> <br/>
-      </p>
-    </div>
-  </div>                                          
+
+  <?php } ?>
+                                         
 
 
 
