@@ -19,18 +19,26 @@ if(isset($catid))
 }
 else if(isset($newtopic))
 {
-    ?>
-            <form method="post" action="<?php echo base_url() . "forum/nieuwtopic/"?>">
+    
+             if ($this->session->userdata('logged_in') == null): ?>
+
+            <div class="alert alert-danger">You have to be logged in to create a new topic </div> 
+            <? else:?>
+            <form method="post" action="<?php echo base_url() . "forum/nieuwtopic/";?>">
 
             <p>Topic title <input type="text" class="form-control"  name="topicTitle" value=""></input></p>
             <p>post</p>
             <p><textarea name="text" rows="20" cols="200"></textarea></p>
-           <input type="hidden" name="category" value="<?php echo $this->uri->segment(3)?>">
+
+           <input type="hidden" name="category" value="<?php echo $this->uri->segment(3);?>">
 
             <button class="btn btn-success" type="submit">Post</button>
             </form>
+          
+        
 
     <?php
+endif;
 
 }
 else if(isset($thread))

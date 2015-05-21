@@ -54,3 +54,9 @@ ERROR - 2015-05-21 17:09:10 --> Severity: Error --> Call to a member function re
 ERROR - 2015-05-21 17:39:24 --> Query error: Table 'mc_pxl.threads' doesn't exist - Invalid query: SELECT * FROM threads
 ERROR - 2015-05-21 17:44:26 --> Query error: Table 'mc_pxl.threads' doesn't exist - Invalid query: SELECT * FROM threads
 ERROR - 2015-05-21 18:10:48 --> 404 Page Not Found: Profile/logout
+ERROR - 2015-05-21 18:15:06 --> Query error: Column 'posterID' cannot be null - Invalid query: INSERT INTO `posts` (`thread`, `posterID`, `message`, `timestamp`) VALUES ('1', NULL, 'fdafda\r\nfdasfda\r\nfdasfsad\r\nfdasfdsa\r\nfdasfdsa\r\nfdsafads', 1432224906)
+ERROR - 2015-05-21 18:19:16 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 40
+ERROR - 2015-05-21 18:19:42 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 41
+ERROR - 2015-05-21 18:26:14 --> Severity: Compile Error --> Cannot use isset() on the result of a function call (you can use "null !== func()" instead) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 23
+ERROR - 2015-05-21 18:27:32 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 110
+ERROR - 2015-05-21 18:27:58 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 41
