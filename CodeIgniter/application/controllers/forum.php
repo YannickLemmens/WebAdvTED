@@ -32,13 +32,27 @@ class Forum extends CI_Controller {
 		$this->load->view('footer');
 
 	}
+	function newcategory(){
+		$data['newcat'] = true ;
+		$this->load->view('header');
+		$this->load->view('forum_view',$data);
+		$this->load->view('footer');
+
+	}
 	function nieuwtopic(){
 
-		$datum =  new DateTime('NOW');
+
+    $query = $this->db->get_where('categories', array('id' => $this->input->post('category')),1);
+	$membersonly = null;
+    foreach ($query->result() as $row)
+    	$membersonly = $row->membersonly;
+
+  		$datum =  new DateTime('NOW');
 		$data = array(
 		'title' => $this->input->post('topicTitle'),
 		'authorid' => $this->session->userdata('user_id'),
 		'categorie' => $this->input->post('category'),
+		'membersonly' => $membersonly,
 		'timestamp' => time()
 		);
 		$this->db->insert('topics', $data); 
@@ -53,6 +67,23 @@ class Forum extends CI_Controller {
 		$this->db->insert('posts', $data2); 
 		redirect('/forum/thread/'.$id);
 	}
+	function createnewcat(){
+		if($this->input->post('membersonly') == 'on')
+		$membersonly = 1;
+		else
+			$membersonly = 0;
+		$datum =  new DateTime('NOW');
+		$data = array(
+		'name' => $this->input->post('catname'),
+		'description' => $this->input->post('catdesc'),
+		'membersonly' => $membersonly
+		);
+		$this->db->insert('categories', $data); 
+		$id = $this->db->insert_id();
+
+
+		redirect('/forum/categorie/'.$id);
+	}
 	function newpost()
 	{
 		$data2 = array(
@@ -66,5 +97,20 @@ class Forum extends CI_Controller {
 
 
 	}
+	function newpostasguest()
+	{
+		$data2 = array(
+		'thread' => $this->input->post('topic'),
+		'posterID' => -1,
+		'guestname' => $this->input->post('guestname'),
+		'message' => $this->input->post('text'),
+		'timestamp' => time()
+		);
+		$this->db->insert('posts', $data2); 
+		redirect('/forum/thread/'.$this->input->post('topic'));
+
+
+	}
+
 }
 

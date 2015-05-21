@@ -60,3 +60,43 @@ ERROR - 2015-05-21 18:19:42 --> Severity: Parsing Error --> syntax error, unexpe
 ERROR - 2015-05-21 18:26:14 --> Severity: Compile Error --> Cannot use isset() on the result of a function call (you can use "null !== func()" instead) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 23
 ERROR - 2015-05-21 18:27:32 --> Severity: Parsing Error --> syntax error, unexpected end of file C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 110
 ERROR - 2015-05-21 18:27:58 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 41
+ERROR - 2015-05-21 18:35:15 --> Severity: Parsing Error --> syntax error, unexpected ')' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 16
+ERROR - 2015-05-21 18:35:26 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 20
+ERROR - 2015-05-21 18:49:08 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 9
+ERROR - 2015-05-21 18:49:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 9
+ERROR - 2015-05-21 18:49:08 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 9
+ERROR - 2015-05-21 18:49:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 9
+ERROR - 2015-05-21 18:49:08 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 9
+ERROR - 2015-05-21 18:49:08 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 9
+ERROR - 2015-05-21 18:49:34 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 104
+ERROR - 2015-05-21 18:49:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 104
+ERROR - 2015-05-21 18:49:34 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 104
+ERROR - 2015-05-21 18:49:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 104
+ERROR - 2015-05-21 18:52:24 --> Severity: Notice --> Undefined variable: catid C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 116
+ERROR - 2015-05-21 19:03:40 --> Query error: Unknown column 'name' in 'field list' - Invalid query: INSERT INTO `topics` (`name`, `description`, `membersonly`) VALUES ('test', 'test', NULL)
+ERROR - 2015-05-21 19:04:03 --> Query error: Column 'membersonly' cannot be null - Invalid query: INSERT INTO `categories` (`name`, `description`, `membersonly`) VALUES ('test', 'test', NULL)
+ERROR - 2015-05-21 19:05:27 --> Severity: Notice --> Undefined index: formWheelchair C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 64
+ERROR - 2015-05-21 19:05:27 --> Query error: Column 'membersonly' cannot be null - Invalid query: INSERT INTO `categories` (`name`, `description`, `membersonly`) VALUES ('test', 'test', NULL)
+ERROR - 2015-05-21 19:05:47 --> Query error: Column 'membersonly' cannot be null - Invalid query: INSERT INTO `categories` (`name`, `description`, `membersonly`) VALUES ('test', 'test', NULL)
+ERROR - 2015-05-21 19:06:03 --> 404 Page Not Found: Forum/category
+ERROR - 2015-05-21 19:06:27 --> 404 Page Not Found: WebAdvTED/codeigniter
+ERROR - 2015-05-21 19:06:55 --> 404 Page Not Found: Forum/category
+ERROR - 2015-05-21 19:15:47 --> Query error: Incorrect integer value: 'on' for column 'membersonly' at row 1 - Invalid query: INSERT INTO `categories` (`name`, `description`, `membersonly`) VALUES ('test', 'test', 'on')
+ERROR - 2015-05-21 19:16:12 --> Severity: Parsing Error --> syntax error, unexpected ';', expecting ')' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 72
+ERROR - 2015-05-21 19:27:32 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 28
+ERROR - 2015-05-21 19:34:13 --> Query error: Unknown column 'guestname' in 'field list' - Invalid query: INSERT INTO `posts` (`thread`, `posterID`, `guestname`, `message`, `timestamp`) VALUES ('5', -1, NULL, 'test', 1432229653)
+ERROR - 2015-05-21 19:34:47 --> Query error: Unknown column 'guestname' in 'field list' - Invalid query: INSERT INTO `posts` (`thread`, `posterID`, `guestname`, `message`, `timestamp`) VALUES ('5', -1, NULL, 'test', 1432229687)
+ERROR - 2015-05-21 19:35:19 --> Query error: Unknown column 'guestname' in 'field list' - Invalid query: INSERT INTO `posts` (`thread`, `posterID`, `guestname`, `message`, `timestamp`) VALUES ('5', -1, 'testguest', 'test', 1432229719)
+ERROR - 2015-05-21 19:37:55 --> Severity: Parsing Error --> syntax error, unexpected ')', expecting ',' or ';' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 81
+ERROR - 2015-05-21 19:46:07 --> Severity: Parsing Error --> syntax error, unexpected '$datum' (T_VARIABLE) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 49
+ERROR - 2015-05-21 19:46:31 --> Severity: Notice --> Undefined variable: catid C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\controllers\forum.php 45
+ERROR - 2015-05-21 19:46:31 --> Query error: Column 'membersonly' cannot be null - Invalid query: INSERT INTO `topics` (`title`, `authorid`, `categorie`, `membersonly`, `timestamp`) VALUES ('test', '8', '2', NULL, 1432230391)
+ERROR - 2015-05-21 19:50:37 --> Severity: Parsing Error --> syntax error, unexpected 'echo' (T_ECHO) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 65
+ERROR - 2015-05-21 19:50:44 --> Severity: Notice --> Undefined variable: row C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 64
+ERROR - 2015-05-21 19:50:44 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 64
+ERROR - 2015-05-21 19:51:16 --> Severity: Notice --> Undefined variable: row C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 64
+ERROR - 2015-05-21 19:51:16 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 64
+ERROR - 2015-05-21 19:51:29 --> Severity: Notice --> Undefined variable: row C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 64
+ERROR - 2015-05-21 19:51:29 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 64
+ERROR - 2015-05-21 19:53:08 --> Severity: Parsing Error --> syntax error, unexpected '}' C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 133
+ERROR - 2015-05-21 19:57:25 --> Severity: Parsing Error --> syntax error, unexpected 'else' (T_ELSE) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 27
