@@ -15,7 +15,7 @@ if(isset($userid)):
 
 				
 			
-      <?php $image = $this->session->userdata("image") ;
+      <?php $image = $image;
               
       
        echo '<img  src="'.site_url("assets/uploads/$image") .'" id="profielfoto" alt="" width="40%" height="auto" class="img-rounded pull-left"/>';

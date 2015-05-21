@@ -1,22 +1,15 @@
 <style>
 #team {
-		border:outset 5px 	;
-		-moz-border-radius-topleft: 12px;
-		-moz-border-radius-topright:12px;
-		-moz-border-radius-bottomleft:12px;
-		-moz-border-radius-bottomright:12px;
-		-webkit-border-top-left-radius:12px;
-		-webkit-border-top-right-radius:12px;
-		-webkit-border-bottom-left-radius:12px;
-		-webkit-border-bottom-right-radius:12px;
-		border-top-left-radius:12px;
-		border-top-right-radius:12px;
-		border-bottom-left-radius:12px;
-		border-bottom-right-radius:12px;
+		border-style : inset;
+		border-width : 5px;
+		border-color : #00000;
+		-moz-border-radius12px;
+		-webkit-border radius:12px;
+		border-radius:12px;
 		width : 300px;
 		display : inline-block;
 		margin : 10px;
-		background : 
+		background : #F8FAE3;
 		
 }
 
@@ -26,6 +19,7 @@ h2, p {
 
 .image {
 	margin : 5px;
+	border-radius : 12px;
 }
   
 
