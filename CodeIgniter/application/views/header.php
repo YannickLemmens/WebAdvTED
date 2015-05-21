@@ -200,6 +200,12 @@
                           <span>About Us</span>
                       </a>
                   </li>  
+				  <li class="mt">
+						<a href="<?php echo site_url('team')?>">
+						<i class="fa fa-users"></i>
+						<span>Meet the team</span>
+						</a>
+				  </li>
                    <li class="mt">
                       <a href="<?php echo site_url('forum')?>">
                           <i class="fa fa-university"></i>

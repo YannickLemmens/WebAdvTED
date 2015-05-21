@@ -34,3 +34,7 @@ ERROR - 2015-05-21 14:31:33 --> Severity: Parsing Error --> syntax error, unexpe
 ERROR - 2015-05-21 14:37:23 --> Query error: Incorrect datetime value: '1432211843' for column 'timestamp' at row 1 - Invalid query: INSERT INTO `posts` (`thread`, `posterID`, `message`, `timestamp`) VALUES (4, '8', 'test2', 1432211843)
 ERROR - 2015-05-21 14:38:06 --> 404 Page Not Found: Forum/forum
 ERROR - 2015-05-21 14:51:46 --> Severity: Parsing Error --> syntax error, unexpected 'echo' (T_ECHO) C:\xampp\htdocs\WebAdvTED\CodeIgniter\application\views\forum_view.php 42
+ERROR - 2015-05-21 15:45:53 --> 404 Page Not Found: Profile/user8
+ERROR - 2015-05-21 15:46:02 --> 404 Page Not Found: Profile/user8
+ERROR - 2015-05-21 15:46:11 --> 404 Page Not Found: Profile/user8
+ERROR - 2015-05-21 15:46:13 --> 404 Page Not Found: Profile/user11
