@@ -252,7 +252,9 @@ if ($this->session->userdata('logged_in') == TRUE)
 						<a>
 						<i class="fa fa-search"></i>
 						<span>
-						<input type="text" class="form-control" style="width:125px"></input>
+						<form name="searchForm" method="post" action="searchresult">
+						<input name="searchBox" type="text" class="form-control" style="width:125px" placeholder="Search for an event" style="font-size:10px"></input>
+						</form>
 						</span>
 						</a>
 				  </li>
