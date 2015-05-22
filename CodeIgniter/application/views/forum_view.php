@@ -16,7 +16,7 @@ echo '<div class="alert alert-danger">This category does not exist </div> ';
             {
             echo '<a href= "'.site_url('forum/thread/'. $row->id) .'"><div class="showback">';
         
-        echo '<h4>'. $row->title .'</h5>';
+        echo '<h4>'. $row->title .'</h4>';
         echo '<span>started by '. $row->authorid .'</span>';
         echo '</div></a>';
     }
@@ -121,7 +121,7 @@ else if(isset($thread))
             <button class="btn btn-success" type="submit">reply</button>
     <?php else:?>
         <form class="text-center" method="post" action="<?php echo base_url() . "forum/newpostasguest/"?>">
-            <p>username<input type="text" class="form-control"  name="guestname" value=""></input></p>
+            <p>username<input type="text" class="form-control"  name="guestname" value=""></p>
             <p><textarea name="text" rows="10" cols="150" ></textarea></p>
            <input type="hidden" name="topic" value="<?php echo $this->uri->segment(3)?>">
 
@@ -151,14 +151,14 @@ else{
         if ($row->membersonly == 0 && $this->session->userdata('logged_in') == null ){
 
             echo '<a href="'.site_url('forum/categorie/'.$row->id) .'"><div class="showback">';
-            echo '<h4>'. $row->name .'</h5>';
+            echo '<h4>'. $row->name .'</h4>';
             echo '<p>'. $row->description .'</p>';
             echo '</div></a>';
         }
         if ($this->session->userdata('logged_in') != null ){
 
             echo '<a href="'.site_url('forum/categorie/'.$row->id) .'"><div class="showback">';
-            echo '<h4>'. $row->name .'</h5>';
+            echo '<h4>'. $row->name .'</h4>';
             echo '<p>'. $row->description .'</p>';
             echo '</div></a>';
         }

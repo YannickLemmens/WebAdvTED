@@ -1,4 +1,4 @@
-<style>
+<style scoped>
 .event .panel-body {
   background: #BBDEFB;
   border: 1px solid #448AFF;
@@ -44,10 +44,7 @@
 
 }
 </style>
-</br>
-</br>
-</br>
-<body>
+
 
 <?php
 foreach ($events  as $row)
@@ -64,12 +61,11 @@ foreach ($events  as $row)
 		 <?php }else{ ?>
 		<h3><?php echo $row -> title ?></h3>
 		<?php } ?>
-		</hr>
-		</br>
+		
+		<br>
 		</div>
 		</div>
 		</div>
 	<?php	
 }
 		?>
-</body>

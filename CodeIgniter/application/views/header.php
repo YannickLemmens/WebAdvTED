@@ -249,14 +249,14 @@ if ($this->session->userdata('logged_in') == TRUE)
                   </li>
                     <?php endif; ?>
                      <li class="sub-menu">
-						<a>
+						
 						<i class="fa fa-search"></i>
-						<span>
+						
 						<form name="searchForm" method="post" action="searchresult">
-						<input name="searchBox" type="text" class="form-control" style="width:125px" placeholder="Search for an event" style="font-size:10px"></input>
+						<input name="searchBox" type="text" class="form-control" style="width:125px" placeholder="Search for an event">
 						</form>
-						</span>
-						</a>
+						
+						
 				  </li>
               </ul>
               <!-- sidebar menu end-->

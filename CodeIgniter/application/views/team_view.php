@@ -1,5 +1,5 @@
-<style>
-#team {
+<style scoped>
+.team {
 
 		-moz-border-radius:8px;
 		-webkit-border radius:8px;
@@ -27,17 +27,17 @@ h2, p {
 
  <?php foreach($admins as $rows) 
  {?>
- <div id="team" class="showback">
+ <div class="showback team">
 	<a href="<?php echo site_url('profile/user')."/".$rows->id?>">
 			 <?php $image = $rows ->image ;
 
 
-					echo ' <img class="image" src="'.site_url("assets/uploads/$image") .'" width="70px" height="70px" align="">';
+					echo ' <img class="image" src="'.site_url("assets/uploads/$image") .'" width="70" height="70" alt="profielfoto">';
 					?>
 			<h2><?php echo $rows->username;?></h2>
 			<p>Email : <?php echo $rows->email;?></p>
 			<p>Rol : <?php echo $rows->role;?></p>
-			</br>
+			<br>
 	</a>
 </div>
 <?php
