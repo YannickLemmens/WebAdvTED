@@ -15,7 +15,7 @@
         $this->load->helper('form');
 
         $this->load->helper('url');
-        $this->load->model('members_model');
+        $this->load->model('Members_model');
 
     }  
 

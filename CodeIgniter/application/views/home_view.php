@@ -10,38 +10,29 @@
   <h3>Upcoming events</h3>
 
   <!-- First Action -->
+    <?php
+
+      $query = $this->db->query("SELECT * FROM `events` WHERE `date` >= CURDATE() ORDER BY `date` LIMIT 7");
+
+      foreach ($query->result() as $row)
+      {
+     
+      
+    ?>
   <div class="desc">
     <div class="thumb">
       <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
     </div>
     <div class="details">
-      <p><muted>in x days</muted><br/>
-        event at location x <a href="#">read more</a> <br/>
+      <p><?php echo $row->title;?><br/>
+        Location:<?php echo $row->location;?> <a href="<?php echo site_url('events/show_event_volledig/'.$row->ID)?>">read more</a> <br/>
+        
       </p>
     </div>
   </div>
-  <!-- First Action -->
-  <div class="desc">
-    <div class="thumb">
-      <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
-    </div>
-    <div class="details">
-      <p><muted>in x days</muted><br/>
-        event at location x <a href="#">read more</a> <br/>
-      </p>
-    </div>
-  </div>
-  <!-- First Action -->
-  <div class="desc">
-    <div class="thumb">
-      <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
-    </div>
-    <div class="details">
-      <p><muted>in x days</muted><br/>
-        event at location x <a href="#">read more</a> <br/>
-      </p>
-    </div>
-  </div>                                          
+
+  <?php } ?>
+                                         
 
 
 
@@ -60,16 +51,15 @@
         <?php $image = $row ->image ;
 
 
-        echo ' <img class="img-circle" src="'.site_url("assets/uploads/$image") .'" width="35px" height="35px" align="">';
+        echo ' <img class="img-circle" src="'.site_url("assets/uploads/$image") .'" width="35" height="35" alt="profilepicture" >';
         ?>
 
       </div>
       <div class="details">
 
 
-        <p><a href="profile/user/<?php echo $row ->id;?>"><?php echo $row ->username;?></a><br/>
-          <muted><?php echo $row ->role;?></muted>
-        </p>
+        <p><a href="profile/user/<?php echo $row ->id;?>"><?php echo $row ->username;?></a></p>
+         <p class = "muted"> <?php echo $row ->role;?></p>
 
       </div>
     </div>

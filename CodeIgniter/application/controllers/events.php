@@ -4,6 +4,10 @@ class events extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 			$this->load->model('event_model');
+
+		$this->load->model('Members_model');
+	
+ 	
 }
 	public function index () {		
 		$this->load->helper('url');

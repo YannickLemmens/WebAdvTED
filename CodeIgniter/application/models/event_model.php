@@ -49,4 +49,13 @@ public function getEvents() {
 	{
 		$this->db->insert('events',$data);
 	}
+	public function get_search($search)
+	{
+ 		$this->db->select('*');
+		$this->db->from('events');
+		$this->db->like('title',$search);
+		$this->db->or_like('description',$search);
+		$query = $this->db->get();
+		return $query->result_array();
+	}
 }

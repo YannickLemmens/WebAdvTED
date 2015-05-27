@@ -3,6 +3,7 @@ class Profile extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 			$this->load->model('Members_model');
+			$this->load->model('User_model');
 }
 	
 	function index() {
@@ -18,6 +19,7 @@ class Profile extends CI_Controller {
 	
     function user() {
 		$data['userid'] = $this->uri->segment(3);
+		$data['image'] = $this->User_model->getImage($data['userid']);
 		$this->load->view('header');
 		$this->load->view('profile',$data);
 		$this->load->view('footer');
@@ -39,6 +41,7 @@ class Profile extends CI_Controller {
 		$id = $this->uri->segment(3);
 		$data['users'] = $this->Members_model->get_users();
 		$data['userUpdate'] = $this->Members_model->show_user_id($id);
+		
 		$this->load->view('header');
 		$this->load->view('profile_view',$data);
 		$this->load->view('footer');

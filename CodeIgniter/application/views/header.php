@@ -1,3 +1,8 @@
+<?php
+if ($this->session->userdata('logged_in') == TRUE) 
+  $this->Members_model->refreshsession();
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -158,7 +163,7 @@
               <ul class="dropdown-menu" role="menu">
                 <li><a href="<?php echo site_url('profile/User/' .$this->session->userdata('user_id'))?>">Profile</a></li>
                 <li class="divider"></li>
-                <li><a href="user/logout">logout</a></li>
+                <li><a href="<?php echo site_url('user/logout')?>">logout</a></li>
               </ul>
 
   
@@ -188,19 +193,25 @@
               <ul class="sidebar-menu" id="nav-accordion">
               
               
-                  <li class="mt">
+                  <li class="sub-menu">
                       <a href="<?php echo site_url('home')?>">
                           <i class="fa fa-home"></i>
                           <span>Home</span>
                       </a>
                   </li>
-                   <li class="mt">
+                   <li class="sub-menu">
                       <a href="<?php echo site_url('about')?>">
                           <i class="fa fa-info"></i>
                           <span>About Us</span>
                       </a>
                   </li>  
-                   <li class="mt">
+				  <li class="sub-menu">
+						<a href="<?php echo site_url('team')?>">
+						<i class="fa fa-users"></i>
+						<span>Meet the team</span>
+						</a>
+				  </li>
+                   <li class="sub-menu">
                       <a href="<?php echo site_url('forum')?>">
                           <i class="fa fa-university"></i>
                           <span>Forum</span>
@@ -208,14 +219,14 @@
                   </li>
 				  
                   <?php if ($this->session->userdata('role') == null) :?>                  
-                   <li class="mt">
+                   <li class="sub-menu">
                       <a href="<?php echo site_url('register')?>">
                           <i class="fa fa-child"></i>
                           <span>Join Us!</span>
                       </a>
                   </li>  
                 <?php endif; ?>
-                   <li class="mt">
+                   <li class="sub-menu">
                       <a href="<?php echo site_url('events')?>">
                           <i class="fa fa-calendar"></i>
                           <span>Events</span>
@@ -237,13 +248,15 @@
                       </ul>
                   </li>
                     <?php endif; ?>
-                     <li class="mt">
-						<a>
+                     <li class="sub-menu">
+						
 						<i class="fa fa-search"></i>
-						<span>
-						<input type="text" class="form-control" style="width:125px"></input>
-						</span>
-						</a>
+						
+						<form name="searchForm" method="post" action="searchresult">
+						<input name="searchBox" type="text" class="form-control" style="width:125px" placeholder="Search for an event">
+						</form>
+						
+						
 				  </li>
               </ul>
               <!-- sidebar menu end-->

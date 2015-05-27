@@ -1,4 +1,11 @@
-<style scoped>
+<html>
+
+<?php
+if(!isset($_POST['searchBox'])) {
+	header("Location: home");
+}
+?>
+<style>
 .event .panel-body {
   background: #BBDEFB;
   border: 1px solid #448AFF;
@@ -39,33 +46,43 @@
     margin-top:-23px;
 }
 
-
-
-
 }
 </style>
-
+</br>
+</br>
+</br>
+<body>
 
 <?php
-foreach ($events  as $row)
+$this->load->library('table');
+if ($query != null){
+foreach ($query as $row)
  {
 		?>
 		<div class="panel panel-default event">
 		<div class="panel-body">
 		<div class="rsvp col-xs-2 col-sm-2">
-		<i> <?php echo $row -> date ?></i>
+		<i> <?php echo $row['date'] ?></i>
 		</div>
 		<div class="info col-xs-8 col-sm-7">
 		<?php if ($this->session->userdata('logged_in') == TRUE) { ?>
-		<a href="<?php echo site_url('events/show_event_volledig/'.$row->ID);?>"><h3><?php echo $row -> title ?></h3></a>
+		<a href="<?php echo site_url('events/show_event_volledig/'.$row->ID);?>"><h3><?php echo $row ['title']?></h3></a>
 		 <?php }else{ ?>
-		<h3><?php echo $row -> title ?></h3>
+		<h3><?php echo $row['title']?></h3>
 		<?php } ?>
-		
-		<br>
+		</hr>
+		</br>
 		</div>
 		</div>
 		</div>
 	<?php	
 }
-		?>
+} else {
+	?><p style=font-size="20px"><?php echo "No events found" ; ?></p> <?php
+}		?>
+</body>
+<?php
+
+?>
+
+</html>
